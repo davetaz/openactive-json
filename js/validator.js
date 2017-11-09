@@ -4,9 +4,14 @@ $( document ).ready(function() {
         SCHEMA=data;
         console.log(SCHEMA);
     });
+    previous = localStorage.getItem('openActiveJson');
+    if (previous) {
+      editor.setValue(previous);
+    }
 
     $("#next").on("click", function() {
       step = stage + 1;
+      localStorage.setItem('openActiveJson',editor.getValue())
       window.location.href = "step" + step + ".html";
     });
     $("#validate").on("click", function() {
