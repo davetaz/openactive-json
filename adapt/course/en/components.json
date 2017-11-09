@@ -1,0 +1,136 @@
+[
+  {
+    "_id": "5a0497a3b2b3c78e133d0234",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a049796b2b3c78e133d0232",
+    "body": "<p>You can add more properties to your object, try adding a description:</p><code>\"description\": \"A Tai Chi class intended for beginners\"</code><p>In order to add a new property you MUST put a comma after the previous property.</p><p>You need a comma after every property except the last property. E.g. if you have a closing bracket next } or ], then you should not have a comma.</p><p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p>",
+    "displayTitle": "1.3 - Adding more properties to your object",
+    "title": "1.3 - Adding more properties to your object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "instruction": ""
+  },
+  {
+    "_id": "5a046ecab2b3c78e133d0226",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "59c26a00156b822330063913",
+    "body": "<p>JSON stands for JavaScript Object Notation. It is used to represent objects like people, places, events etc.</p><p>The {} brackets are used to indicate the start and end of an object.</p><p>You then define the properties of your object inside the brackets.</p><p>Try adding the name of an event to the empty object on the left:</p><p>Add the following (including quote marks) between the {} brackets on the left:</p><code>\"name\": \"Tai Chi Class\"</code><p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p>",
+    "displayTitle": "1.2 - Defining a JSON object",
+    "title": "1.2 - Defining a JSON object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "instruction": ""
+  },
+  {
+    "_id": "5a047dfbb2b3c78e133d022d",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "59c26a00156b822330063913",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "codeinput",
+    "_defaultValue": "{}",
+    "_schema": "course/en/assets/0177ce05afa41ad5df804f0377544c7faa44d1e1.json",
+    "_canShowFeedback": true,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p>You got it!</p>",
+      "_incorrect": {
+        "final": "<p>Be careful to ensure you add the new property between a &quot;{&quot; and &quot;}&quot; and don&#39;t forget the quotes.</p>",
+        "notFinal": "<p>Be careful to ensure you add the new property between a &quot;{&quot; and &quot;}&quot; and don&#39;t forget the quotes.</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "Submit",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a04979eb2b3c78e133d0233",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a049796b2b3c78e133d0232",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "codeinput",
+    "_defaultValue": "{}",
+    "_schema": "course/en/assets/d555592b628b444b6ee112a2f70b639780f2bdb0.json",
+    "_canShowFeedback": true,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p>You got it again!</p>",
+      "_incorrect": {
+        "final": "<p>You need to add both a name and a description field. Make sure you remember the comma on the end of the first property line!&nbsp;</p>",
+        "notFinal": "<p>You need to add both a name and a description field. Make sure you remember the comma on the end of the first property line!&nbsp;</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  }
+]

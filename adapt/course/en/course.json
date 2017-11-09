@@ -1,0 +1,175 @@
+{
+  "_id": "course",
+  "_globals": {
+    "_accessibility": {
+      "accessibilityToggleTextOn": "Turn accessibility on?",
+      "accessibilityToggleTextOff": "Turn accessibility off?",
+      "_accessibilityInstructions": {
+        "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page.",
+        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+        "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select."
+      },
+      "_ariaLabels": {
+        "navigation": "Course navigation bar",
+        "menuLoaded": "Menu loaded",
+        "menu": "Menu",
+        "menuItem": "Menu item",
+        "menuViewButton": "Select here to enter",
+        "page": "Page",
+        "pageLoaded": "Page loaded",
+        "previous": "Back",
+        "navigationBack": "Navigate back",
+        "navigationDrawer": "Open course resources and search",
+        "closeResources": "Close resources",
+        "drawerBack": "Back to drawer",
+        "drawer": "Side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Complete",
+        "incomplete": "Incomplete",
+        "correct": "Correct",
+        "locked": "Locked",
+        "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+        "feedbackPopUp": "Popup opened",
+        "visited": "Visited",
+        "menuBack": "Back to menu",
+        "menuIndicatorHeading": "Menu item heading "
+      }
+    },
+    "_components": {
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_codeinput": {
+        "ariaRegion": "This question requires you to input your answer in the codebox provided. When you have done so, select the submit button below."
+      }
+    },
+    "_extensions": {
+      "_skillsFramework": {
+        "linkText": "Outcomes",
+        "titleText": "Learning outcomes"
+      },
+      "_ODILicence": {
+        "linkText": "Licence",
+        "titleText": "Licence"
+      },
+      "_aboutPage": {
+        "linkText": "About",
+        "titleText": "About",
+        "contactEMail": "training@theodi.org",
+        "contactLinkText": "Contact",
+        "aboutCredit": "",
+        "SL_text": "",
+        "SL_facebook": "MyODIHQ",
+        "SL_flickr": "ukodi",
+        "SL_github": "",
+        "SL_scribd": "OpenDataInstitute",
+        "SL_soundcloud": "theodi",
+        "SL_twitter": "",
+        "SL_vimeo": "theodiuk",
+        "SL_youtube": "OpenDataInstituteUK"
+      }
+    }
+  },
+  "_start": {
+    "_isEnabled": true,
+    "_startIds": [
+      {
+        "_id": "59c269ff156b822330063908",
+        "_skipIfComplete": false,
+        "_className": ""
+      }
+    ],
+    "_force": true,
+    "_isMenuDisabled": true
+  },
+  "_type": "course",
+  "_lockType": "",
+  "_classes": "",
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Hide correct answer",
+      "ariaLabel": "Hide correct answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "remaining attempts",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_latestTrackingId": 2,
+  "body": "",
+  "displayTitle": "Course title",
+  "title": "Another test",
+  "_aboutPage": {
+    "_items": [
+      {
+        "title": "Foo",
+        "description": "<p>bar</p>",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      }
+    ]
+  },
+  "_ODILicence": {
+    "_items": [
+      {
+        "_graphic": {
+          "src": "https://licensebuttons.net/l/by/4.0/88x31.png",
+          "alt": ""
+        },
+        "description": "<p>Learning open data&nbsp;by&nbsp;<a href=\"https://theodi.org\" target=\"_blank\">Open Data Institute</a>&nbsp;is licensed under a <a href=\"http://creativecommons.org/licenses/by/4.0/\" rel=\"license\">Creative Commons Attribution 4.0 International License</a>.</p>",
+        "title": "Licence"
+      },
+      {
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "description": "<p>The content, including text and structure is available for you to&nbsp;<em>use</em>,&nbsp;<em>reuse</em>&nbsp;and&nbsp;<em>share</em>(including for commercial purposes) subject to the conditions of the license above.</p>",
+        "title": "Content usage"
+      },
+      {
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "description": "<p>This license does not cover:</p><ul><li>Logos and trade marks belonging to the Open Data Institute</li><li>Third party content (such as images)</li></ul>",
+        "title": "Exclusions"
+      },
+      {
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "description": "<p>This licence does not grant you any right to use the Information in a way that suggests any official status or that the Information Provider and/or Licensor endorse you or your use of the Information.</p>",
+        "title": "Non-endoresement"
+      },
+      {
+        "_graphic": {
+          "src": "",
+          "alt": ""
+        },
+        "description": "<p>The Information is licensed &#39;as is&#39;. The Open Data Institute is not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information.</p>",
+        "title": "No warranty"
+      }
+    ]
+  }
+}

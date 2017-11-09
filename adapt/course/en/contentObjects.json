@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "59c269ff156b822330063908",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "_classes": "",
+    "body": "",
+    "displayTitle": "JSON Schema test",
+    "title": "JSON Schema test",
+    "_skillsFramework": {
+      "_skills": []
+    },
+    "_ODILicence": {
+      "_items": [
+        {
+          "_graphic": {
+            "src": "https://i.creativecommons.org/l/by-sa/4.0/88x31.png",
+            "alt": ""
+          },
+          "description": "<p>Learning open data&nbsp;by&nbsp;<a href=\"https://theodi.org/\" tabindex=\"0\" target=\"_blank\">Open Data Institute</a>&nbsp;is licensed under a&nbsp;<a href=\"http://creativecommons.org/licenses/by-sa/4.0/\" rel=\"license\">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>",
+          "title": "Licence"
+        },
+        {
+          "_graphic": {
+            "src": "",
+            "alt": ""
+          },
+          "description": "<p>The content, including text and structure is available for you to&nbsp;<em>use</em>,&nbsp;<em>reuse</em>&nbsp;and&nbsp;<em>share&nbsp;</em>(including for commercial purposes) subject to the conditions of the licence above.</p>",
+          "title": "Content usage"
+        },
+        {
+          "_graphic": {
+            "src": "",
+            "alt": ""
+          },
+          "description": "<p>This licence does not cover:</p><ul><li>Logos and trade marks such as those belonging to the Open Data Institute</li><li>Third party content (such as images)</li></ul>",
+          "title": "Exclusions"
+        },
+        {
+          "_graphic": {
+            "src": "",
+            "alt": ""
+          },
+          "description": "<p>This licence does not grant you any right to use the Information in a way that suggests any official status or that the Information Provider and/or Licensor endorse you or your use of the Information.</p>",
+          "title": "Non-endoresement"
+        },
+        {
+          "_graphic": {
+            "src": "",
+            "alt": ""
+          },
+          "description": "<p>The Information is licensed &#39;as is&#39;. The Open Data Institute is not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information.</p>",
+          "title": "No warranty"
+        }
+      ]
+    },
+    "_aboutPage": {
+      "aboutCredit": "<p>You can type what you like here</p>",
+      "SL_text": "<p>Type what you like here as well</p>",
+      "_items": []
+    }
+  }
+]
