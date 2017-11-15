@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "5a0b1f64b48cd2c408582cd4",
+    "_parentId": "course",
+    "_type": "page",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_classes": "",
+    "body": "",
+    "displayTitle": "Page title",
+    "title": "Page title",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true
+    }
+  }
+]

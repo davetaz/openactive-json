@@ -1,95 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ajv/5.1.1/ajv.min.js" type="text/javascript"></script>
-    <script src="js/validator.js" type="text/javascript" charset="utf-8"></script>
-    <title>Open active data publishing lesson</title>
-
-<style type="text/css" media="screen">
-    #editor { 
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
-    #instructions {
-        border: 1px solid #83d0f2;
-        height: 601px;
-        position: relative;
-    }
-    #instructions h1 {
-        padding: 5px;
-        background-color: #f5f9fa;
-        margin-top: 0px;
-    }
-    #instructions-body {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    #instructions button {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-    }
-    button {
-        padding: 10px;
-        background-color: #83d0f2;
-        cursor: pointer;
-    }
-</style>
-</head>
+<html>
 <body>
-<section id="code-section" style="width: 49%; display: inline-block;">
-    <div id="editor" style="height: 400px; position: relative;">{
-}</div>
-<div class="ace_editor ace-monokai" id="error-report" style="margin-top: 1px; border-top: 1px white; height: 200px; overflow-y: auto; padding-left: 10px; padding-right: 10px;">
-    <div class="col" id="validation-detail" style="display: none;">
-        <h3 class="text-danger">Invalid input</h3>
-        <p id="validation-message"></p>
-    </div>
-    <div class="col" id="success" style="display: none;">
-        <h3 class="text-danger">Perfect! Well done.</h3>
-    </div>
-    <div class="col" id="error-detail" style="display: none;">
-      <h3 class="text-danger">You have <span id="num-errors">1 error</span></h3>
-
-      <table class="table">
-        <thead>
-          <tr><th>Field</th><th>Error</th><th>Value</th>
-        </tr></thead>
-        <tbody id="errors">
-        <tr>
-          <td>.url</td><td>should match format "uri"</td><td>...</td>
-        </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-<section id="instructions" style="display: inline-block; width: 49%; vertical-align: top;">
-<h1>1.2 Defining a JSON object</h1>
-<section id="instructions-body">
-    <p>JSON stands for JavaScript Object Notation. It is used to represent objects like people, places, events etc.</p>
-    <p>The {} brackets are used to indicate the start and end of an object.</p>
-    <p>You then define the properties of your object inside the brackets.</p>
-    <p>Try adding the name of an event to the empty object on the left:</p>
-    <p>Add the following (including quote marks) between the {} brackets on the left:</p>
-    <code>"name": "Tai Chi Class"</code>
-    <p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p>
-</section>
-<button id="validate" class="btn btn-default">Validate</button>
-<button id="next" style="display: none;" class="btn btn-default">Next lesson</button>
-</section>
-<script>
-    var editor = ace.edit("editor");
-    editor.setTheme("ace/theme/monokai");
-    editor.setShowPrintMargin(false);
-    editor.getSession().setMode("ace/mode/json");
-    var stage = 1;
-</script>
-</body>
-</html>
+<h1><a href='demo1/'>Demo 1</a></h1>
+<p>A simple HTML demo of the JSONSchema input for open active.</p>
+<p>This version is a non-scalable prototype to show the concept only!</p>
+<h1><a href='demo2/'>Demo 2</a></h1>
+<p>Starting to integrate the JSONSchema tool into our Adapt eLearning framework for easier creation and tracking of learning journeys</p>
+<p>This version shows this principal working but the interface is not the best</p>
+<h1><a href='demo3/'>Demo 3</a></h1>
+<p>Stepping up to make the Adapt eLearning version look and feel more like a code academy course, complete with theming.</p>
+<p>There is still much work to do to make the mobile responsive version look sensible and fix a load of the code before this can be used to create learning resources.</p>

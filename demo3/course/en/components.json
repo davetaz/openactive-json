@@ -1,0 +1,168 @@
+[
+  {
+    "_id": "5a0b2375911d5f760eb97d88",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a0b1f64b48cd2c408582cd6",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "1.2 - Defining a JSON object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "codeinput",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "",
+    "_schema": "course/en/assets/0177ce05afa41ad5df804f0377544c7faa44d1e1.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a0b617c3eac121319648e08",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a0b61613eac121319648e06",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": " 1.3 - Adding more properties to your object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "codeinput",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "",
+    "_schema": "course/en/assets/d555592b628b444b6ee112a2f70b639780f2bdb0.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a0b1f65b48cd2c408582cd7",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a0b1f64b48cd2c408582cd6",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<div class=\"text-body component-body\"><div class=\"text-body-inner component-body-inner\"><p>JSON stands for JavaScript Object Notation. It is used to represent objects like people, places, events etc.</p><p>The {} brackets are used to indicate the start and end of an object.</p><p>You then define the properties of your object inside the brackets.</p><p>Try adding the name of an event to the empty object on the left:</p><p>Add the following (including quote marks) between the {} brackets on the left:</p>&quot;name&quot;: &quot;Tai Chi Class&quot;<p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p></div></div>",
+    "displayTitle": "1.2 - Defining a JSON object",
+    "title": "1.2 - Defining a JSON object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a0b61773eac121319648e07",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a0b61613eac121319648e06",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<div class=\"text-body component-body\"><div class=\"text-body-inner component-body-inner\"><p>You can add more properties to your object, try adding a description:</p>&quot;description&quot;: &quot;A Tai Chi class intended for beginners&quot;<p>In order to add a new property you MUST put a comma after the previous property.</p><p>You need a comma after every property except the last property. E.g. if you have a closing bracket next } or ], then you should not have a comma.</p><p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p></div></div>",
+    "displayTitle": " 1.3 - Adding more properties to your object",
+    "title": " 1.3 - Adding more properties to your object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": ""
+  }
+]
