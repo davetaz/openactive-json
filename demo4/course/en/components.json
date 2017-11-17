@@ -1,0 +1,218 @@
+[
+  {
+    "_id": "5a0ec8c40e00b09f38a7d827",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a0e9b95a87a9e2d1af75e0e",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "1.3 - Adding more properties to your object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "",
+    "_schema": "course/en/assets/d555592b628b444b6ee112a2f70b639780f2bdb0.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quiet! Make sure you have two values (name and description) and you have separated them by a comma &quot;,&quot;. They putting name on one line and description on the other.</strong></p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a0e9b99a87a9e2d1af75e0f",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a0e9b95a87a9e2d1af75e0e",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>You can add more properties to your object, try adding a description:</p><p>&quot;description&quot;: &quot;A Tai Chi class intended for beginners&quot;</p><p>In order to add a new property you MUST put a comma after the previous property.</p><p>You need a comma after every property except the last property. E.g. if you have a closing bracket next } or ], then you should not have a comma.</p><p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p>",
+    "displayTitle": "1.3 - Adding more properties to your object",
+    "title": "1.3 - Adding more properties to your object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a0e9b88a87a9e2d1af75e0d",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a0e9b80a87a9e2d1af75e0c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>JSON stands for JavaScript Object Notation. It is used to represent objects like people, places, events etc.</p><p>The {} brackets are used to indicate the start and end of an object.</p><p>You then define the properties of your object inside the brackets.</p><p>Try adding the name of an event to the empty object on the left:</p><p>Add the following (including quote marks) between the {} brackets on the left:</p><p>&quot;name&quot;: &quot;Tai Chi Class&quot;</p><p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p>",
+    "displayTitle": "1.2 - Defining a JSON object",
+    "title": "1.2 - Defining a JSON object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a0ea33ba87a9e2d1af75e15",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a0ea334a87a9e2d1af75e14",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+    "displayTitle": "Theme demo",
+    "title": "Theme demo",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a0ea33ea87a9e2d1af75e16",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a0ea334a87a9e2d1af75e14",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "small": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5a0ec5860e00b09f38a7d825",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a0e9b80a87a9e2d1af75e0c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "1.2 - Defining a JSON object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "",
+    "_schema": "course/en/assets/0177ce05afa41ad5df804f0377544c7faa44d1e1.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quite! Make sure you have you name between two {} brackets and that you have included quote marks.</strong></p>",
+        "notFinal": "<p><strong>Not quite! Make sure you have you name between two {} brackets and that you have included quote marks.</strong></p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  }
+]
