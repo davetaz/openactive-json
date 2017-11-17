@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "5a0e9b80a87a9e2d1af75e0b",
+    "_type": "article",
+    "_parentId": "5a0e9b80a87a9e2d1af75e0a",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Article title",
+    "_articleBlockSlider": {
+      "_isEnabled": true,
+      "_slideAnimationDuration": 1,
+      "_heightAnimationDuration": 300,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_hasTabs": false,
+      "_hasArrows": true,
+      "_startIndex": 0,
+      "_hasUniformHeight": true,
+      "_minHeight": null
+    }
+  }
+]
