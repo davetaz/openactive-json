@@ -1,0 +1,700 @@
+[
+  {
+    "_id": "5a15e79afece3ffa59cf1163",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a15e79afece3ffa59cf115c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p><strong>Welcome to Lesson 4!</strong></p><p>In this lesson we are going to refine our opportunity data from Lessons 1 and 2 to refer to those activities and places that are now in our lists, linking it all together.</p>",
+    "displayTitle": "Lesson 4: Using lists with opportunities",
+    "title": "Lesson 4: Using lists with opportunities",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click the right arrow at the bottom to get started"
+  },
+  {
+    "_id": "5a15e622fece3ffa59cf1157",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a15e622fece3ffa59cf1150",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p><strong>Welcome to Lesson 3!</strong></p><p>So far we have just created opportunity data.&nbsp;</p><p>In this lesson we are going to look at how you can describe lists of activities and places which can be referred to within those opportunities.</p>",
+    "displayTitle": "Lesson 3: Working with lists of activities and places",
+    "title": "Lesson 3: Working with lists of activities and places",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click the right arrow at the bottom to get started"
+  },
+  {
+    "_id": "5a15e2cbfece3ffa59cf1144",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a15e297fece3ffa59cf1143",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p><strong>Welcome to Lesson 2!</strong></p><p>In this lesson we will look at adding more advanced and nested data to our object.</p><p>You will discover how JSON is not just about tabular data and how we can nest complex data within a single opportunity data example.</p><p>By the end of this lesson you will have:</p><ul><li>Described an opportunity that consists of multiple activities</li><li>Added a regular schedule for an opportunity (e.g. weekly)</li><li>Added a location to an event</li></ul>",
+    "displayTitle": "Lesson 2: Adding more detail and nested data",
+    "title": "Lesson 2: Adding more detail and nested data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click the right arrow at the bottom to get started"
+  },
+  {
+    "_id": "5a15e79afece3ffa59cf115e",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a15e79afece3ffa59cf115b",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "<p>{<br />&nbsp; &quot;@context&quot;: &quot;https://www.openactive.io/ns/oa.jsonld&quot;,<br />&nbsp; &quot;type&quot;: &quot;Event&quot;,<br />&nbsp; &quot;url&quot;: &quot;http://www.example.org/events/1&quot;,<br />&nbsp; &quot;name&quot;: &quot;Tai chi Class&quot;,<br />&nbsp; &quot;description&quot;: &quot;A tai chi class intended for beginners&quot;,<br />&nbsp; &quot;startDate&quot;: &quot;2017-03-22T20:00:00-05:00&quot;,<br />&nbsp; &quot;duration&quot;: &quot;PT60M&quot;,<br />&nbsp; &quot;activity&quot;: {<br />&nbsp; &nbsp; &quot;id&quot;: &quot;http://example.org/activity-list#tai-chi&quot;,<br />&nbsp; &nbsp; &quot;type&quot;: &quot;Concept&quot;,<br />&nbsp; &nbsp; &quot;prefLabel&quot;: &quot;Tai chi&quot;,<br />&nbsp; &nbsp; &quot;altLabel&quot;: &quot;Tai-chi&quot;,<br />&nbsp; &nbsp; &quot;inScheme&quot;: &quot;http://example.org/activity-list&quot;<br />&nbsp; }<br />}</p>",
+    "_schema": "course/en/assets/d555592b628b444b6ee112a2f70b639780f2bdb0.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p>Yup!</p>",
+      "_incorrect": {
+        "final": "<p>Nope!</p>",
+        "notFinal": "<p>Nope!</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a15e79afece3ffa59cf1160",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a15e79afece3ffa59cf115c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "small": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5a15e79afece3ffa59cf115d",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a15e79afece3ffa59cf115b",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>By the end of the lesson the student will have been guided through the process of creating data like that on the right.&nbsp;<strong>This will also include a place if that is possible?</strong></p><p>Exact steps have yet to be decided.</p>",
+    "displayTitle": "Lesson objective",
+    "title": "Lesson objective",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a15e622fece3ffa59cf1154",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a15e622fece3ffa59cf1150",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "small": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5a15e622fece3ffa59cf1151",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a15e622fece3ffa59cf114f",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>By the end of the lesson the student will have been guided through the process of creating data like that on the right.&nbsp;</p><p>Exact steps have yet to be decided.</p>",
+    "displayTitle": "Lesson objective",
+    "title": "Lesson objective",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a15e622fece3ffa59cf1152",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a15e622fece3ffa59cf114f",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "<p>{<br />&nbsp; &quot;@context&quot;: &quot;https://www.openactive.io/ns/oa.jsonld&quot;,<br />&nbsp; &quot;type&quot;: &quot;ConceptScheme&quot;,<br />&nbsp; &quot;url&quot;: &quot;http://www.example.org/activity-list&quot;,<br />&nbsp; &quot;title&quot;: &quot;Activity List&quot;,<br />&nbsp; &quot;description&quot;: &quot;An example activity list&quot;,<br />&nbsp; &quot;concepts&quot;: [{<br />&nbsp; &nbsp; &quot;type&quot;: &quot;Concept&quot;,<br />&nbsp; &nbsp; &quot;prefLabel&quot;: &quot;Martial Arts&quot;,<br />&nbsp; &nbsp; &quot;narrower&quot;: [{<br />&nbsp; &nbsp; &nbsp; &quot;type&quot;: &quot;Concept&quot;,<br />&nbsp; &nbsp; &nbsp; &quot;prefLabel&quot;: &quot;Judo&quot;<br />&nbsp; &nbsp; },<br />&nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &quot;type&quot;: &quot;Concept&quot;,<br />&nbsp; &nbsp; &nbsp; &quot;prefLabel&quot;: &quot;Kendo&quot;<br />&nbsp; &nbsp; },<br />&nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &quot;type&quot;: &quot;Concept&quot;,<br />&nbsp; &nbsp; &nbsp; &quot;prefLabel&quot;: &quot;Karate&quot;<br />&nbsp; &nbsp; }] &nbsp;}]<br />}</p>",
+    "_schema": "course/en/assets/d555592b628b444b6ee112a2f70b639780f2bdb0.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p>Yup!</p>",
+      "_incorrect": {
+        "final": "<p>Nope!</p>",
+        "notFinal": "<p>Nope!</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a0ea33ba87a9e2d1af75e15",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a0ea334a87a9e2d1af75e14",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>This lesson will introduce the basics of the open opportunity data specification. It will guide you through creating a simple piece of opportunity data to describe an event.</p><p>Opportunity data is described in the JavaScript Object Notation format. This is a key:value pair format that is a &quot;native&quot; data format on the web.&nbsp;</p><p>Don&#39;t worry if you have never created or used this data format before as this module will ensure you can get a good grip on the basics.&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "displayTitle": "Lesson 1: Defining an opportunity",
+    "title": "Lesson 1: Defining an opportunity",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click the right arrow at the bottom of the screen to continue."
+  },
+  {
+    "_id": "5a0ec8c40e00b09f38a7d827",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a0e9b95a87a9e2d1af75e0e",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "1.3 - Adding more properties to your object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "",
+    "_schema": "course/en/assets/d555592b628b444b6ee112a2f70b639780f2bdb0.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quiet! Make sure you have two values (name and description) and you have separated them by a comma &quot;,&quot;. They putting name on one line and description on the other.</strong></p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a15e393fece3ffa59cf114a",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a15e385fece3ffa59cf1148",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "<p>{<br />&nbsp;&quot;@context&quot;: &quot;https://www.openactive.io/ns/oa.jsonld&quot;,<br />&nbsp;&quot;type&quot;: &quot;Event&quot;,<br />&nbsp;&quot;name&quot;: &quot;General fitness class&quot;,<br />&nbsp;&quot;url&quot;: &quot;http://www.example.org/events/2&quot;,<br />&nbsp;&quot;duration&quot;: &quot;PT60M&quot;,<br />&nbsp;&quot;activity&quot;: [&quot;Aerobics&quot;, &quot;Weight Lifting&quot;, &quot;Yoga&quot;],<br />&nbsp;&quot;category&quot;: [&quot;Beginner&quot;, &quot;Low intensity&quot;],<br />&nbsp;&quot;eventSchedule&quot;: {<br />&nbsp; &nbsp; &quot;type&quot;: &quot;Schedule&quot;,<br />&nbsp; &nbsp; &quot;startDate&quot;: &quot;2017-01-01&quot;,<br />&nbsp; &nbsp; &quot;endDate&quot;: &quot;2017-12-31&quot;,<br />&nbsp; &nbsp; &quot;frequency&quot;: &quot;weekly&quot;,<br />&nbsp; &nbsp; &quot;byDay&quot;: &quot;http://schema.org/Wednesday&quot;,<br />&nbsp; &nbsp; &quot;startTime&quot;: &quot;19:00&quot;,<br />&nbsp; &nbsp; &quot;endTime&quot;: &quot;20:00&quot;<br />&nbsp; },<br />&nbsp;&quot;location&quot;: {<br />&nbsp; &nbsp; &quot;type&quot;: &quot;Place&quot;,<br />&nbsp; &nbsp; &quot;name&quot;: &quot;ExampleCo Gym&quot;,<br />&nbsp; &nbsp; &quot;address&quot;: {<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;type&quot;: &quot;PostalAddress&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;streetAddress&quot;: &quot;1 High Street&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;addressLocality&quot;: &quot;Bristol&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;postalCode&quot;: &quot;BS1 4SD&quot;<br />&nbsp; &nbsp; },<br />&nbsp; &nbsp; &quot;geo&quot;: {<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;latitude&quot;: &quot;51.380837&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;longitude&quot;: &quot;-2.3462374&quot;<br />&nbsp; &nbsp; }<br />&nbsp;}<br />}</p>",
+    "_schema": "course/en/assets/d555592b628b444b6ee112a2f70b639780f2bdb0.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p>Yup!</p>",
+      "_incorrect": {
+        "final": "<p>Nope!</p>",
+        "notFinal": "<p>Nope!</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a15d7b8fece3ffa59cf113f",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a15d725fece3ffa59cf113d",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Ideal answer",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "<p>{<br />&nbsp;&quot;@context&quot;: &quot;https://www.openactive.io/ns/oa.jsonld&quot;,<br />&nbsp;&quot;type&quot;: &quot;Event&quot;,<br />&nbsp;&quot;name&quot;: &quot;Tai chi Class&quot;,<br />&nbsp;&quot;description&quot;: &quot;A Tai Chi class intended for beginners&quot;,<br />&nbsp;&quot;url&quot;: &quot;http://www.example.org/events/1&quot;,<br />&nbsp;&quot;startDate&quot;: &quot;2017-03-22&quot;,<br />&nbsp;&quot;endDate&quot;: &quot;2017-03-22&quot;,<br />&nbsp;&quot;duration&quot;: &quot;PT60M&quot;,<br />&nbsp;&quot;activity&quot;: &quot;Tai Chi&quot;<br />}</p>",
+    "_schema": "course/en/assets/d555592b628b444b6ee112a2f70b639780f2bdb0.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p>Yup, that&#39;s it!</p>",
+      "_incorrect": {
+        "final": "<p>Nope!?</p>",
+        "notFinal": "<p>Nope!?</p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a15e38ffece3ffa59cf1149",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a15e385fece3ffa59cf1148",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>By the end of the lesson the student will have been guided through the process of creating data like that on the right.&nbsp;</p><p>Exact steps have yet to be decided.</p>",
+    "displayTitle": "Lesson objective",
+    "title": "Lesson objective",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a15e2cefece3ffa59cf1145",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a15e297fece3ffa59cf1143",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "small": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5a0e9b99a87a9e2d1af75e0f",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a0e9b95a87a9e2d1af75e0e",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>You can add more properties to your object, try adding a description:</p><p>&quot;description&quot;: &quot;A Tai Chi class intended for beginners&quot;</p><p>In order to add a new property you MUST put a comma after the previous property.</p><p>You need a comma after every property except the last property. E.g. if you have a closing bracket next } or ], then you should not have a comma.</p><p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p>",
+    "displayTitle": "1.3 - Adding more properties to your object",
+    "title": "1.3 - Adding more properties to your object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a0e9b88a87a9e2d1af75e0d",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a0e9b80a87a9e2d1af75e0c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>JSON stands for JavaScript Object Notation. It is used to represent objects like people, places, events etc.</p><p>The {} brackets are used to indicate the start and end of an object.</p><p>You then define the properties of your object inside the brackets.</p><p>Try adding the name of an event to the empty object on the left:</p><p>Add the following (including quote marks) between the {} brackets on the left:</p><p>&quot;name&quot;: &quot;Tai Chi Class&quot;</p><p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p>",
+    "displayTitle": "1.2 - Defining a JSON object",
+    "title": "1.2 - Defining a JSON object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a15d730fece3ffa59cf113e",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a15d725fece3ffa59cf113d",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>On the right is an example of the less objective endpoint.</p><p>This is what the users should have created for themselves by the end of the lesson having learnt about:</p><ol><li>Basic properties (Title, description, activity and url)</li><li>Schedule objects (startDate, endData and duration)</li><li>Adding the type to define what type of object we are create and the namespace that we need to refer to always.</li></ol><p>&nbsp;</p>",
+    "displayTitle": "Lesson objective",
+    "title": "Lesson objective",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "Lesson 1 complete"
+  },
+  {
+    "_id": "5a0ea33ea87a9e2d1af75e16",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a0ea334a87a9e2d1af75e14",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Graphic",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "small": "course/en/assets/2ab3e4db462a6b6ca431ac62c675f5bc51d6e03a.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5a0ec5860e00b09f38a7d825",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a0e9b80a87a9e2d1af75e0c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "1.2 - Defining a JSON object",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "<p>{</p><p>&nbsp;</p><p>}</p>",
+    "_schema": "course/en/assets/0177ce05afa41ad5df804f0377544c7faa44d1e1.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quite! Make sure you have you name between two {} brackets and that you have included quote marks.</strong></p>",
+        "notFinal": "<p><strong>Not quite! Make sure you have you name between two {} brackets and that you have included quote marks.</strong></p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  }
+]
