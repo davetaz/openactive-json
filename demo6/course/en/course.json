@@ -96,9 +96,9 @@
   },
   "_latestTrackingId": 10,
   "description": "",
-  "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-  "displayTitle": "Schema test 0.4.0",
-  "title": "Schema test 0.4.0",
+  "body": "<p>This interactive tutorial enables you to go from zero to hero with the opporutnity data specification.</p><p><b>For publishers:</b> This tutorial will show you how to create data that conforms to the opportunity data specification to describe many different activities. At each stage you will be able to define your own activity and check it against the intended lesson outcome. This will enable you to become as expert with the specification such that you can publish your own data according to the specificaiton.</p><p><b>For users:</b> This tutorial will help you understand the specification and help identify good sources of data for use in your applications. It will also help you understand the scope of the specification and potential for using the data within your own applications.</p><p>Each lesson should between 20-40 minutes to complete and it is highly recommended you follow the lessons in order.</p><p><em>Click on lesson 1 to get started</em></p>",
+  "displayTitle": "Working with the opportunity data standard",
+  "title": "Working with the opportunity data standard",
   "_pageLevelProgress": {
     "_isEnabled": true,
     "_showPageCompletion": true
