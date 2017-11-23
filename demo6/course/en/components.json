@@ -574,7 +574,7 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>JSON stands for JavaScript Object Notation. It is used to represent objects like people, places, events etc.</p><p>The {} brackets are used to indicate the start and end of an object.</p><p>You then define the properties of your object inside the brackets.</p><p>Try adding the name of an event to the empty object on the left:</p><p>Add the following (including quote marks) between the {} brackets on the left:</p><p>&quot;name&quot;: &quot;Tai Chi Class&quot;</p><p>Click check answer to validate your answer. The bottom box will show how you get on. Once you have completed the activity you will be able to click to the next activity.</p>",
+    "body": "<p>JSON stands for JavaScript Object Notation. It is used to represent objects like people, places, events etc.</p><p>The {} brackets are used to indicate the start and end of an object.</p><p>You then define the properties of your object inside the brackets.</p><p>Try adding the name of an event to the empty object on the right:</p><p>Add the following (including quote marks) between the {} brackets on the right:</p><p>&quot;name&quot;: &quot;Tai Chi Class&quot;</p><p>Click <i>Submit</i> to validate your answer. The bottom box will show how you get on and help with any hints. There is also a <i>red cross</i> that will appear in the box on the right if your JSON data isn't valid and you can hover over it to get some helpful hints.</p><p>Once you have completed the activity you will be able to click to the next activity.</p>",
     "displayTitle": "1.2 - Defining a JSON object",
     "title": "1.2 - Defining a JSON object",
     "_isAvailable": true,
