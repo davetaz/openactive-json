@@ -1,5 +1,27 @@
 [
   {
+    "_id": "5a55306404816ecd5590c978",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a55306404816ecd5590c977",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>Use the table of properties below to complete your eventSchedule.</p><p>To complete this step you need to add the <strong>byDay</strong>&nbsp;property.</p><p><strong>TODO</strong></p><p>&nbsp;</p>",
+    "displayTitle": "2.5 - Completing your event",
+    "title": "2.5 - Completing your event",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Press 'submit' to check your answer."
+  },
+  {
     "_id": "5a15e79afece3ffa59cf1163",
     "_layout": "left",
     "_type": "component",
@@ -75,7 +97,7 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p><strong>Welcome to Lesson 2!</strong></p><p>In this lesson we will look at adding more advanced and nested data to our object.</p><p>You will discover how JSON is not just about tabular data and how we can nest complex data within a single opportunity data example.</p><p>By the end of this lesson you will have:</p><ul><li>Described an opportunity that consists of multiple activities</li><li>Added a regular schedule for an opportunity (e.g. weekly)</li><li>Added a location to an event</li></ul>",
+    "body": "<p><strong>Welcome to Lesson 2!</strong></p><p>In this lesson we will look at adding more advanced and nested data to our object.</p><p>You will discover how JSON is not just about tabular data and how we can nest complex data within a single opportunity data example.</p><p>By the end of this lesson you will have:</p><ul><li>Described&nbsp;an opportunity that consists of multiple activities</li><li>Added&nbsp;a regular schedule for an opportunity (e.g. weekly)</li><li>Added&nbsp;a Place&nbsp;to an event</li></ul>",
     "displayTitle": "Lesson 2: Adding more detail and nested data",
     "title": "Lesson 2: Adding more detail and nested data",
     "_isAvailable": true,
@@ -626,6 +648,28 @@
     }
   },
   {
+    "_id": "5a5530bf04816ecd5590c97d",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a5530bf04816ecd5590c97c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>Very similar to eventSchedule but with a new object called &quot;<strong>location</strong>&quot;. See the data model at the bottom for the data model. Note that a location is an object which is itself contains other objects &quot;address&quot; and &quot;geo&quot;.&nbsp;</p><p><strong>TODO</strong></p><p>&nbsp;</p>",
+    "displayTitle": "2.6 - Adding a location to an event",
+    "title": "2.6 - Adding a location to an event",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Press 'submit' to check your answer."
+  },
+  {
     "_id": "5a0e9b99a87a9e2d1af75e0f",
     "_layout": "left",
     "_type": "component",
@@ -707,6 +751,28 @@
       "remainingAttemptsText": "",
       "remainingAttemptText": ""
     }
+  },
+  {
+    "_id": "5a551f7704816ecd5590c952",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a551f6404816ecd5590c951",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>To start this lesson we have predefined a fitness class that consists of three &quot;activities&quot;.&nbsp;</p><p><strong><em>Try first to validate this event and see what happens.&nbsp;</em></strong></p><p>You should notice that this event is invalid. This is because you cannot have an &quot;activities&quot; attribute; it must be activity.&nbsp;</p><p>In order to describe an event with multiple activities we&nbsp;<strong>must</strong>&nbsp;use the activity attribute and then create an array of activities, each as an individual property.&nbsp;</p><p>In JSON an array is shown by the [ ] brackets and you can have comma separated values in the array.</p><p>Try changing the list of activities into an array so it looks like the following:&nbsp;</p><p>&quot;activity&quot;: [ &quot;Aerobics&quot;, &quot;Weight Lifting&quot;, &quot;Yoga&quot; ]</p><p><em>Click <strong>submit</strong> to check your answer.</em></p><div class=\"learn-more\"><div class=\"title\"><p>Find out more</p></div><p>You might have found that the following also validates:<br /><br/>&quot;activity&quot;: &quot;Aerobics, Weight Lifting, Yoga&quot;<br /><br/>However to a machine this is one activity with commas in it. The commas could be part of one activity e.g. &quot;Jousting, on horses&quot;. It is only by using arrays that a machine can tell that each activity is distinct.</p></div>",
+    "displayTitle": "2.1 - Adding a list of actvities",
+    "title": "2.1 - Adding a list of actvities",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
   },
   {
     "_id": "5a281b8247f33d8522c29bc9",
@@ -1024,6 +1090,444 @@
       "_incorrect": {
         "final": "<p><strong>Not quite! Make sure you have you name between two {} brackets and that you have included quote marks.</strong></p>",
         "notFinal": "<p><strong>Not quite! Make sure you have you name between two {} brackets and that you have included quote marks.</strong></p>"
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a5524e904816ecd5590c95b",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a5524e904816ecd5590c95a",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>Our fitness class is &quot;Low intensity&quot; and &quot;Beginner&quot; in level.&nbsp;</p><p>Try adding an array of containing these (or other) categories to the data.&nbsp;</p><p><strong>Remember:&nbsp;</strong>You cannot have plurals in the attributes so you will need to use the&nbsp;<strong>category&nbsp;</strong>attribute.</p><p>&nbsp;</p>",
+    "displayTitle": "2.2 - Adding categories",
+    "title": "2.2 - Adding categories",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Press 'submit' to check your answer."
+  },
+  {
+    "_id": "5a551f7b04816ecd5590c953",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a551f6404816ecd5590c951",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "<p>{<br />&nbsp;&quot;@context&quot;: &quot;https://www.openactive.io/ns/oa.jsonld&quot;,<br />&nbsp;&quot;type&quot;: &quot;Event&quot;,<br />&nbsp;&quot;name&quot;: &quot;General fitness class&quot;,<br />&nbsp;&quot;description&quot;: &quot;A fitness class of many activities!&quot;,<br />&nbsp;&quot;url&quot;: &quot;http://www.example.org/events/2&quot;,<br />&nbsp;&quot;duration&quot;: &quot;PT60M&quot;,<br />&nbsp;&quot;activities&quot;: &quot;Aerobics, Weight Lifting, Yoga&quot;,<br />&nbsp;&quot;startDate&quot;: &quot;2017-01-01&quot;,<br />&nbsp;&quot;endDate&quot;: &quot;2017-12-31&quot;<br />}</p>",
+    "_schema": "course/en/assets/468aee91a19091eab712a8bc76da65a801d8110f.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>You successfully added an array of activities to your event.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quiet!</strong></p><p>Be careful to ensure your array starts with a [&nbsp;bracket and each value is in quote marks and separated by a comma as shown in the example.</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a5524e904816ecd5590c95c",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a5524e904816ecd5590c95a",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "",
+    "_schema": "course/en/assets/b99ae1105066a7e68c94b9d6bd42b5c16e96fa7c.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>You successfully added an array of categories to your event.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quiet!</strong></p><p>Note that in this example categories can only be defined as an array, not as a string. You can define them as strings in the full schema.</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a5526f204816ecd5590c965",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a5526f204816ecd5590c963",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "",
+    "_schema": "course/en/assets/6761d48b429f07ac5fb6973e612a2972e338698a.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>You successfully added an array of categories to your event.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quiet!</strong></p><p>Note that in this example categories can only be defined as an array, not as a string. You can define them as strings in the full schema.</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a5526f204816ecd5590c964",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a5526f204816ecd5590c963",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>You might have noticed that the predefined fitness class has a duration of 60 minutes, starting on the 1st of January and ending on the 31st of December. But when is the class, what time and is it daily?</p><p>In order to define all these properties we can add an eventSchedule attribute to our object.&nbsp;</p><p>To complete this lesson <strong>create</strong> an <strong>eventSchedule</strong> attribute&nbsp;and <strong>move</strong> the <strong>startDate</strong> and <strong>endDate&nbsp;</strong>attributes inside this object as follows:</p><p>&quot;eventSchedule&quot;: {<br />&nbsp; &nbsp;&nbsp; &nbsp; &quot;type&quot;: &quot;Schedule&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp;&quot;startDate&quot;: &quot;2017-01-01&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp;&quot;endDate&quot;: &quot;2017-12-31&quot;<br />}</p><p><strong><em>Press &#39;submit&#39; to check your answer.</em></strong></p><div class=\"learn-more\"><div class=\"title\"><p>Did you notice?</p></div><p>An eventSchedule is not a string, nor&nbsp;an array, it is a nested JSON object contained in { } brackets. Just like the way an event is an object&nbsp;with properties, so is an eventSchedule.</p></div>",
+    "displayTitle": "2.3 - Event schedules",
+    "title": "2.3 - Event schedules",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "5a552a6b04816ecd5590c96b",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a552a6b04816ecd5590c96a",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "",
+    "_schema": "course/en/assets/d8c7c27d6555a57d57d4b22cefd25b2bb24b8439.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>Your eventSchedule is getting more detailed, well done!</p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quiet!</strong></p><p>You need to add three properties:&nbsp;<strong>frequency</strong>,<strong> startTime&nbsp;</strong>and&nbsp;<strong>endTime&nbsp;</strong>with values &quot;weekly&quot;, &quot;19:00&quot; and &quot;20:00&quot; respectively.&nbsp;</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a552d3204816ecd5590c96f",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a552a6b04816ecd5590c96a",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>We should now have a basic eventSchedule object, however there are still many pieces of information missing, such as the startTime and endTime of the event and which day of the week it runs on.</p><p>Just like the event object itself, the eventSchedule object has a series of properties that you can define according to the data model. The extract of the data model which relates an event to and eventSchedule is shown below.</p><p>Try adding a &quot;<strong>weekly</strong>&quot; <strong>frequency</strong> to your event, along with a <strong>startTime</strong> (e.g. &quot;19:00&quot;) and <strong>endTime</strong>.&nbsp;</p><p>We will add byDay in the next step.&nbsp;</p>",
+    "displayTitle": "2.4 - Adding more properties to your eventSchedule",
+    "title": "2.4 - Adding more properties to your eventSchedule",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click 'submit' to check your answer.",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/34ac90e2470164c521e99b5ae339e60a8f96c335.png",
+      "small": "course/en/assets/34ac90e2470164c521e99b5ae339e60a8f96c335.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5a55306404816ecd5590c979",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a55306404816ecd5590c977",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "<p>TODO</p>",
+    "_schema": "course/en/assets/b99ae1105066a7e68c94b9d6bd42b5c16e96fa7c.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>You successfully added an array of categories to your event.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quiet!</strong></p><p>Note that in this example categories can only be defined as an array, not as a string. You can define them as strings in the full schema.</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a5530bf04816ecd5590c97e",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a5530bf04816ecd5590c97c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "jsonschema",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_defaultValue": "<p>TODO</p>",
+    "_schema": "course/en/assets/b99ae1105066a7e68c94b9d6bd42b5c16e96fa7c.json",
+    "_canShowFeedback": false,
+    "_attempts": -1,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>You successfully added an array of categories to your event.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quiet!</strong></p><p>Note that in this example categories can only be defined as an array, not as a string. You can define them as strings in the full schema.</p>",
+        "notFinal": ""
       }
     },
     "_buttons": {

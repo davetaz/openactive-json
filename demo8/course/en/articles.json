@@ -15,15 +15,15 @@
     "displayTitle": "",
     "title": "Article title",
     "_articleBlockSlider": {
-      "_isEnabled": true,
-      "_slideAnimationDuration": 1,
-      "_heightAnimationDuration": 300,
-      "_isEnabledOnScreenSizes": "large medium small",
-      "_hasTabs": false,
-      "_hasArrows": true,
-      "_startIndex": 0,
+      "_minHeight": null,
       "_hasUniformHeight": true,
-      "_minHeight": null
+      "_startIndex": 0,
+      "_hasArrows": true,
+      "_hasTabs": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_heightAnimationDuration": 300,
+      "_slideAnimationDuration": 1,
+      "_isEnabled": true
     }
   },
   {
@@ -42,15 +42,15 @@
     "displayTitle": "",
     "title": "Article title",
     "_articleBlockSlider": {
-      "_isEnabled": true,
-      "_slideAnimationDuration": 1,
-      "_heightAnimationDuration": 300,
-      "_isEnabledOnScreenSizes": "large medium small",
-      "_hasTabs": false,
-      "_hasArrows": true,
-      "_startIndex": 0,
+      "_minHeight": null,
       "_hasUniformHeight": true,
-      "_minHeight": null
+      "_startIndex": 0,
+      "_hasArrows": true,
+      "_hasTabs": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_heightAnimationDuration": 300,
+      "_slideAnimationDuration": 1,
+      "_isEnabled": true
     }
   },
   {
@@ -69,15 +69,15 @@
     "displayTitle": "",
     "title": "Article title",
     "_articleBlockSlider": {
-      "_isEnabled": true,
-      "_slideAnimationDuration": 1,
-      "_heightAnimationDuration": 300,
-      "_isEnabledOnScreenSizes": "large medium small",
-      "_hasTabs": false,
-      "_hasArrows": true,
-      "_startIndex": 0,
+      "_minHeight": null,
       "_hasUniformHeight": true,
-      "_minHeight": null
+      "_startIndex": 0,
+      "_hasArrows": true,
+      "_hasTabs": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_heightAnimationDuration": 300,
+      "_slideAnimationDuration": 1,
+      "_isEnabled": true
     }
   },
   {
@@ -96,15 +96,15 @@
     "displayTitle": "",
     "title": "Article title",
     "_articleBlockSlider": {
-      "_isEnabled": true,
-      "_slideAnimationDuration": 1,
-      "_heightAnimationDuration": 300,
-      "_isEnabledOnScreenSizes": "large medium small",
-      "_hasTabs": false,
-      "_hasArrows": true,
-      "_startIndex": 0,
+      "_minHeight": null,
       "_hasUniformHeight": true,
-      "_minHeight": null
+      "_startIndex": 0,
+      "_hasArrows": true,
+      "_hasTabs": false,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_heightAnimationDuration": 300,
+      "_slideAnimationDuration": 1,
+      "_isEnabled": true
     }
   }
 ]

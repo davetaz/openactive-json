@@ -87,9 +87,9 @@
     "title": "Block title"
   },
   {
-    "_id": "5a15e385fece3ffa59cf1148",
+    "_id": "5a0e9b80a87a9e2d1af75e0c",
     "_type": "block",
-    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_parentId": "5a0e9b80a87a9e2d1af75e0b",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
@@ -104,9 +104,9 @@
     "title": "Block title"
   },
   {
-    "_id": "5a0e9b80a87a9e2d1af75e0c",
+    "_id": "5a551f6404816ecd5590c951",
     "_type": "block",
-    "_parentId": "5a0e9b80a87a9e2d1af75e0b",
+    "_parentId": "5a15e297fece3ffa59cf1142",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
@@ -133,9 +133,14 @@
     "title": "Block title"
   },
   {
-    "_id": "5a1dc0c499b915b328bb803e",
+    "_id": "5a5524e904816ecd5590c95a",
     "_type": "block",
-    "_parentId": "5a0e9b80a87a9e2d1af75e0b",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 10,
@@ -145,7 +150,7 @@
     "title": "Block title"
   },
   {
-    "_id": "5a1dc52f99b915b328bb8045",
+    "_id": "5a1dc0c499b915b328bb803e",
     "_type": "block",
     "_parentId": "5a0e9b80a87a9e2d1af75e0b",
     "_isAvailable": true,
@@ -157,12 +162,75 @@
     "title": "Block title"
   },
   {
+    "_id": "5a5526f204816ecd5590c963",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 12,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
+    "_id": "5a1dc52f99b915b328bb8045",
+    "_type": "block",
+    "_parentId": "5a0e9b80a87a9e2d1af75e0b",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 13,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
+    "_id": "5a552a6b04816ecd5590c96a",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 14,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
     "_id": "5a1dc71699b915b328bb804c",
     "_type": "block",
     "_parentId": "5a0e9b80a87a9e2d1af75e0b",
     "_isAvailable": true,
     "_isOptional": false,
-    "_trackingId": 12,
+    "_trackingId": 15,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
+    "_id": "5a55306404816ecd5590c977",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 16,
     "_classes": "",
     "body": "",
     "displayTitle": "",
@@ -174,7 +242,41 @@
     "_parentId": "5a0e9b80a87a9e2d1af75e0b",
     "_isAvailable": true,
     "_isOptional": false,
-    "_trackingId": 13,
+    "_trackingId": 17,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
+    "_id": "5a5530bf04816ecd5590c97c",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 18,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
+    "_id": "5a15e385fece3ffa59cf1148",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 19,
     "_classes": "",
     "body": "",
     "displayTitle": "",
@@ -191,7 +293,7 @@
     },
     "_isAvailable": true,
     "_isOptional": false,
-    "_trackingId": 14,
+    "_trackingId": 20,
     "_classes": "",
     "body": "",
     "displayTitle": "",
@@ -208,7 +310,7 @@
     },
     "_isAvailable": true,
     "_isOptional": false,
-    "_trackingId": 15,
+    "_trackingId": 21,
     "_classes": "",
     "body": "",
     "displayTitle": "",
