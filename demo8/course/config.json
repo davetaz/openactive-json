@@ -33,11 +33,11 @@
     "includes": [
       "adapt-theme-fullscreen-horizontal",
       "adapt-contrib-compressedmenu",
-      "adapt-articleBlockSlider",
       "adapt-contrib-pageLevelProgress",
+      "adapt-articleBlockSlider",
       "adapt-contrib-text",
-      "adapt-contrib-graphic",
-      "adapt-contrib-jsonSchema"
+      "adapt-contrib-jsonSchema",
+      "adapt-contrib-graphic"
     ]
   }
 }

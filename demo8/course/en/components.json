@@ -1,33 +1,5 @@
 [
   {
-    "_id": "5a281b8247f33d8522c29bca",
-    "_layout": "right",
-    "_type": "component",
-    "_parentId": "5a281b8247f33d8522c29bc8",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "body": "",
-    "displayTitle": "",
-    "title": "Graphic",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "graphic",
-    "_pageLevelProgress": {
-      "_isEnabled": false
-    },
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "large": "course/en/assets/7c747b8800288a0859b1804acff16c9ea95cc42c.png",
-      "small": "course/en/assets/7c747b8800288a0859b1804acff16c9ea95cc42c.png",
-      "attribution": ""
-    }
-  },
-  {
     "_id": "5a15e79afece3ffa59cf1163",
     "_layout": "left",
     "_type": "component",
@@ -408,7 +380,7 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>This lesson will introduce the basics of the open opportunity data specification. It will guide you through creating a simple piece of opportunity data to describe an event.</p><p>Opportunity data is described in the JavaScript Object Notation format. This is a key:value pair format that is a &quot;native&quot; data format on the web.&nbsp;</p><p>Don&#39;t worry if you have never created or used this data format before as this module will ensure you can get a good grip on the basics.&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "body": "<p>This lesson will introduce the basics of the open opportunity data modelling specification. It will guide you through creating a simple piece of opportunity data to describe an event.</p><p>Opportunity data is described in the JavaScript Object Notation format. This is a key:value pair format that is a &quot;native&quot; data format on the web.&nbsp;</p><p>Don&#39;t worry if you have never created or used this data format before as this module will ensure you can get a good grip on the basics.&nbsp;</p><div class=\"learn-more\"><div class=\"title\"><p>Find out more</p></div><p>The full <a href=\"https://www.w3.org/2017/08/modelling-opportunity-data/\" target=\"_blank\">Modelling Opportunity Data specification</a> is available from the World Wide Web consortium (W3C). The W3C is an international community of people who develop and maintain the web standards. Alongside the specification there is also a <a href=\"https://www.openactive.io/opportunity-data-primer/\" target=\"_blank\">primer</a>, designed to show how the specification can be implemented. This tutorial is an interactive version of the primer.</p></div>",
     "displayTitle": "Lesson 1: Defining an opportunity",
     "title": "Lesson 1: Defining an opportunity",
     "_isAvailable": true,
@@ -663,7 +635,7 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>You can add more properties to your object, try adding a description:</p><p><strong>&quot;description&quot;: &quot;A Tai Chi class intended for beginners&quot;</strong></p><p>In order to add a new property you MUST put a comma after the previous property.</p><p>You need a comma after every property except the last property. E.g. if you have a closing bracket next } or ], then you should not have a comma.</p><p>&nbsp;</p><p>Click &#39;<strong>submit</strong>&#39; to validate your answer.</p>",
+    "body": "<p>You can add more properties to your object, try adding a description:</p><p><strong>&quot;description&quot;: &quot;A Tai Chi class intended for beginners&quot;</strong></p><p>In order to add a new property you MUST put a comma after the previous property.</p><p>You need a comma after every property except the last property. E.g. if you have a closing bracket next } or ], then you should not have a comma.</p><p>Click &#39;<strong>submit</strong>&#39; to validate your answer.</p><div class=\"learn-more\"><div class=\"title\"><p>Have you discovered?</p></div><p>The value of each property can be customised; you don't need the description to match the one above. Why not make your description more entertaining and even change the name of your event?</p></div>",
     "displayTitle": "1.2 - Adding more properties to your object",
     "title": "1.2 - Adding more properties to your object",
     "_isAvailable": true,
@@ -738,7 +710,7 @@
   },
   {
     "_id": "5a281b8247f33d8522c29bc9",
-    "_layout": "left",
+    "_layout": "full",
     "_type": "component",
     "_parentId": "5a281b8247f33d8522c29bc8",
     "_onScreen": {
@@ -746,7 +718,7 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>Congratulations on completing lesson 1!</p><p>You should now be familiar with creating a basic piece of opportunity data that conforms to the&nbsp;<a href=\"https://www.openactive.io/modelling-opportunity-data/\" target=\"_blank\">opportunity modelling&nbsp;specification</a>.</p><p>In the next lesson we are going to discover how to add Objects and nested data to our events including:</p><ul><li>Describing&nbsp;an opportunity that consists of multiple activities</li><li>Added a regular schedule for an opportunity (e.g. weekly)</li><li>Added a location to an event</li></ul><p>&nbsp;</p><p><a class=\"button\" href=\"#/id/5a15e297fece3ffa59cf1141\">Next lesson</a></p><p>&nbsp;</p>",
+    "body": "<p>Congratulations on completing lesson 1!</p><p>You should now be familiar with creating a basic piece of opportunity data that conforms to the&nbsp;<a href=\"https://www.openactive.io/modelling-opportunity-data/\" target=\"_blank\">opportunity modelling&nbsp;specification</a>.</p><p>Section 4.1 of this specification outlines the full data model (shown below).</p><p>So far we have created an event that can have 14 properties including name, description and image.</p><p>As can be seen in the data model below an Event can also be linked to 5 other data objects representing Places, People, Organisations, Activities and Programmes.&nbsp;</p><p><img src=\"https://www.w3.org/2017/08/modelling-opportunity-data/images/schema-diagram.png\" alt=\"Modelling Opportunity Data Model\"/></p><p>In the next lesson we are going to discover how to these types of&nbsp;objects and nested data to our events including:</p><ul><li>Describing&nbsp;an opportunity that consists of multiple activities</li><li>Adding&nbsp;a regular schedule for an opportunity (e.g. weekly)</li><li>Adding&nbsp;a Place&nbsp;to an event</li></ul><p>&nbsp;</p><p><a class=\"button\" href=\"#/id/5a15e297fece3ffa59cf1141\">Next lesson</a></p><p>&nbsp;</p>",
     "displayTitle": "Lesson 1 complete",
     "title": "Lesson 1 complete",
     "_isAvailable": true,
@@ -790,7 +762,7 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>JSON stands for JavaScript Object Notation. It is used to represent objects like people, places, events etc.</p><p>The {} brackets are used to indicate the start and end of an object.</p><p>You then define the properties of your object inside the brackets.</p><p>Try adding the name of an event to the empty object on the right:</p><p>Add the following (including quote marks) between the {} brackets on the right:</p><p><strong>&quot;name&quot;: &quot;Tai Chi Class&quot;</strong></p><p>&nbsp;</p><p>Click &quot;<strong>Submit</strong>&quot; to check&nbsp;your answer.</p><p>Upon clicking submit a code validator&nbsp;with both ensure your JSON is correctly structured and that it conforms to the required specification. Any errors will be shown in the box at the bottom.</p>",
+    "body": "<p>JSON stands for JavaScript Object Notation. It is used to represent objects like people, places, events etc.</p><p>The {} brackets are used to indicate the start and end of an object.</p><p>You then define the properties of your object inside the brackets.</p><p>Try adding the name of an event to the empty object on the right:</p><p>Add the following (including quote marks) between the {} brackets on the right:</p><p><strong>&quot;name&quot;: &quot;Tai Chi Class&quot;</strong></p><p>&nbsp;</p><p>Click &quot;<strong>Submit</strong>&quot; to check&nbsp;your answer.</p><div class=\"learn-more\"><div class=\"title\"><p>Find out more</p></div><p>Upon clicking submit a code validator&nbsp;with both ensure your JSON is correctly structured and that it conforms to the required specification. Any errors will be shown in the box at the bottom. The Open Active opportunity data validator is also available as a stand alone tool <a href=\"https://oa-validator-experimental.herokuapp.com/\" target=\"_blank\">here</a>.&nbsp;</p></div>",
     "displayTitle": "1.1 - Defining a JSON object",
     "title": "1.1 - Defining a JSON object",
     "_isAvailable": true,
@@ -1006,7 +978,7 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>Now we need to add a start and end date to our event.&nbsp;</p><p>This can be in one of a few date formats:&nbsp;</p><p>Try adding&nbsp;<strong>startDate&nbsp;</strong>and&nbsp;<strong>endDate&nbsp;</strong>properties with dates in one of the following formats:</p><p>Date&nbsp;= &quot;2017-12-25&quot;</p><p>Date/Time = &quot;2017-12-25T09:30:00Z&quot;</p><p>&nbsp;</p><p>Click &#39;<strong>submit&#39;</strong> to check your answer.</p><p><em>Remember you will still need to get all your brackets, quote marks, colons and commas in the right place!</em></p>",
+    "body": "<p>Now we need to add a start and end date to our event.&nbsp;</p><p>This can be in one of a few date formats:&nbsp;</p><p>Try adding&nbsp;<strong>startDate&nbsp;</strong>and&nbsp;<strong>endDate&nbsp;</strong>properties with dates in one of the following formats:</p><ul><li>2017-12-25</li><li>2017-12-25T09:30:00Z</li></ul><p>Click &#39;<strong>submit&#39;</strong> to check your answer.</p><p><em>Remember you will still need to get all your brackets, quote marks, colons and commas in the right place!</em></p><div class=\"learn-more\"><div class=\"title\"><p>Find out more</p></div><p>This date format is a standard in and of itself known as ISO 8601. It is international standard issued by the International Organization for Standardization (ISO) in 1988. Read more on <a href=\"https://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">wikipedia</a>.</p></div>",
     "displayTitle": "1.3 - Adding a start and end date/time",
     "title": "1.3 - Adding a start and end date/time",
     "_isAvailable": true,
