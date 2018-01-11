@@ -266,14 +266,9 @@
     "title": "Block title"
   },
   {
-    "_id": "5a15e385fece3ffa59cf1148",
+    "_id": "5a573f16d410b0406c2591ad",
     "_type": "block",
     "_parentId": "5a15e297fece3ffa59cf1142",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 19,
@@ -300,6 +295,18 @@
     "title": "Block title"
   },
   {
+    "_id": "5a573f7dd410b0406c2591b3",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 21,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
     "_id": "5a15d725fece3ffa59cf113d",
     "_type": "block",
     "_parentId": "5a0e9b80a87a9e2d1af75e0b",
@@ -310,7 +317,65 @@
     },
     "_isAvailable": true,
     "_isOptional": false,
-    "_trackingId": 21,
+    "_trackingId": 22,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
+    "_id": "5a57409fd410b0406c2591ba",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 23,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
+    "_id": "5a5741a2d410b0406c2591bf",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 24,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
+    "_id": "5a574204d410b0406c2591c3",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 25,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title"
+  },
+  {
+    "_id": "5a15e385fece3ffa59cf1148",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 26,
     "_classes": "",
     "body": "",
     "displayTitle": "",

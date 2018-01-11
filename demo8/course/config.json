@@ -37,8 +37,9 @@
       "adapt-articleBlockSlider",
       "adapt-contrib-resources",
       "adapt-contrib-text",
+      "adapt-contrib-graphic",
       "adapt-contrib-jsonSchema",
-      "adapt-contrib-graphic"
+      "adapt-contrib-mcq"
     ]
   }
 }

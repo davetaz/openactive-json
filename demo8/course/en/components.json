@@ -1,25 +1,31 @@
 [
   {
-    "_id": "5a55306404816ecd5590c978",
-    "_layout": "left",
+    "_id": "5a57426cd410b0406c2591c7",
+    "_layout": "right",
     "_type": "component",
-    "_parentId": "5a55306404816ecd5590c977",
+    "_parentId": "5a574204d410b0406c2591c3",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>Use the table of properties below to complete your eventSchedule.</p><p>To complete this step you need to add the <strong>byDay</strong>&nbsp;property.</p><p><strong>TODO</strong></p><p>&nbsp;</p>",
-    "displayTitle": "2.5 - Completing your event",
-    "title": "2.5 - Completing your event",
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
-    "_component": "text",
+    "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
-    "instruction": "Press 'submit' to check your answer."
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7c747b8800288a0859b1804acff16c9ea95cc42c.png",
+      "small": "course/en/assets/7c747b8800288a0859b1804acff16c9ea95cc42c.png",
+      "attribution": ""
+    }
   },
   {
     "_id": "5a15e79afece3ffa59cf1163",
@@ -493,7 +499,7 @@
     "_classes": "",
     "_component": "jsonschema",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "_defaultValue": "<p>{<br />&nbsp;&quot;@context&quot;: &quot;https://www.openactive.io/ns/oa.jsonld&quot;,<br />&nbsp;&quot;type&quot;: &quot;Event&quot;,<br />&nbsp;&quot;name&quot;: &quot;General fitness class&quot;,<br />&nbsp;&quot;url&quot;: &quot;http://www.example.org/events/2&quot;,<br />&nbsp;&quot;duration&quot;: &quot;PT60M&quot;,<br />&nbsp;&quot;activity&quot;: [&quot;Aerobics&quot;, &quot;Weight Lifting&quot;, &quot;Yoga&quot;],<br />&nbsp;&quot;category&quot;: [&quot;Beginner&quot;, &quot;Low intensity&quot;],<br />&nbsp;&quot;eventSchedule&quot;: {<br />&nbsp; &nbsp; &quot;type&quot;: &quot;Schedule&quot;,<br />&nbsp; &nbsp; &quot;startDate&quot;: &quot;2017-01-01&quot;,<br />&nbsp; &nbsp; &quot;endDate&quot;: &quot;2017-12-31&quot;,<br />&nbsp; &nbsp; &quot;frequency&quot;: &quot;weekly&quot;,<br />&nbsp; &nbsp; &quot;byDay&quot;: &quot;http://schema.org/Wednesday&quot;,<br />&nbsp; &nbsp; &quot;startTime&quot;: &quot;19:00&quot;,<br />&nbsp; &nbsp; &quot;endTime&quot;: &quot;20:00&quot;<br />&nbsp; },<br />&nbsp;&quot;location&quot;: {<br />&nbsp; &nbsp; &quot;type&quot;: &quot;Place&quot;,<br />&nbsp; &nbsp; &quot;name&quot;: &quot;ExampleCo Gym&quot;,<br />&nbsp; &nbsp; &quot;address&quot;: {<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;type&quot;: &quot;PostalAddress&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;streetAddress&quot;: &quot;1 High Street&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;addressLocality&quot;: &quot;Bristol&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;postalCode&quot;: &quot;BS1 4SD&quot;<br />&nbsp; &nbsp; },<br />&nbsp; &nbsp; &quot;geo&quot;: {<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;latitude&quot;: &quot;51.380837&quot;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &quot;longitude&quot;: &quot;-2.3462374&quot;<br />&nbsp; &nbsp; }<br />&nbsp;}<br />}</p>",
     "_schema": "course/en/assets/d555592b628b444b6ee112a2f70b639780f2bdb0.json",
@@ -637,7 +643,7 @@
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": "",
     "_graphic": {
@@ -648,26 +654,54 @@
     }
   },
   {
-    "_id": "5a5530bf04816ecd5590c97d",
+    "_id": "5a573f7dd410b0406c2591b7",
     "_layout": "left",
     "_type": "component",
-    "_parentId": "5a5530bf04816ecd5590c97c",
+    "_parentId": "5a573f7dd410b0406c2591b3",
     "_onScreen": {
       "_isEnabled": false,
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>Very similar to eventSchedule but with a new object called &quot;<strong>location</strong>&quot;. See the data model at the bottom for the data model. Note that a location is an object which is itself contains other objects &quot;address&quot; and &quot;geo&quot;.&nbsp;</p><p><strong>TODO</strong></p><p>&nbsp;</p>",
-    "displayTitle": "2.6 - Adding a location to an event",
-    "title": "2.6 - Adding a location to an event",
+    "body": "<p>Which of the following date formats is valid in the opportunity data modelling specification?</p><p><strong>A)&nbsp;2018-12-26</strong></p><p><strong>B) 2018-26-12</strong></p><p><strong>C) 2018-12-26T10:00:00Z</strong></p><p><strong>D) 2018/12/26</strong></p><p><strong>E) 26/12/2018</strong></p>",
+    "displayTitle": "Q1: Date formats",
+    "title": "Q1: Date formats",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
     "_component": "text",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
-    "instruction": "Press 'submit' to check your answer."
+    "instruction": "Select up to two answers and then click 'submit'."
+  },
+  {
+    "_id": "5a573f16d410b0406c2591ae",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a573f16d410b0406c2591ad",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7c747b8800288a0859b1804acff16c9ea95cc42c.png",
+      "small": "course/en/assets/7c747b8800288a0859b1804acff16c9ea95cc42c.png",
+      "attribution": ""
+    }
   },
   {
     "_id": "5a0e9b99a87a9e2d1af75e0f",
@@ -762,15 +796,15 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>To start this lesson we have predefined a fitness class that consists of three &quot;activities&quot;.&nbsp;</p><p><strong><em>Try first to validate this event and see what happens.&nbsp;</em></strong></p><p>You should notice that this event is invalid. This is because you cannot have an &quot;activities&quot; attribute; it must be activity.&nbsp;</p><p>In order to describe an event with multiple activities we&nbsp;<strong>must</strong>&nbsp;use the activity attribute and then create an array of activities, each as an individual property.&nbsp;</p><p>In JSON an array is shown by the [ ] brackets and you can have comma separated values in the array.</p><p>Try changing the list of activities into an array so it looks like the following:&nbsp;</p><p>&quot;activity&quot;: [ &quot;Aerobics&quot;, &quot;Weight Lifting&quot;, &quot;Yoga&quot; ]</p><p><em>Click <strong>submit</strong> to check your answer.</em></p><div class=\"learn-more\"><div class=\"title\"><p>Find out more</p></div><p>You might have found that the following also validates:<br /><br/>&quot;activity&quot;: &quot;Aerobics, Weight Lifting, Yoga&quot;<br /><br/>However to a machine this is one activity with commas in it. The commas could be part of one activity e.g. &quot;Jousting, on horses&quot;. It is only by using arrays that a machine can tell that each activity is distinct.</p></div>",
-    "displayTitle": "2.1 - Adding a list of actvities",
-    "title": "2.1 - Adding a list of actvities",
+    "body": "<p>To start this lesson we have predefined a fitness class that consists of three &quot;activities&quot;.&nbsp;</p><p><strong><em>Try first to validate this event and see what happens.&nbsp;</em></strong></p><p>You should notice that this event is invalid. This is because you cannot have an &quot;activities&quot; attribute; it must be activity.&nbsp;</p><p>In order to describe an event with multiple activities we&nbsp;<strong>must</strong>&nbsp;use the activity attribute and then create an array of activities, each as an individual property.&nbsp;</p><p>In JSON an array is shown by the [ ] brackets and you can have comma separated values in the array.</p><p>Try changing the list of activities into an array so it looks like the following:&nbsp;</p><p>&quot;activity&quot;: [ &quot;Aerobics&quot;, &quot;Weight Lifting&quot;, &quot;Yoga&quot; ]</p><p><em>Click <strong>submit</strong> to check your answer.</em></p><div class=\"learn-more\"><div class=\"title\"><p>Find out more</p></div><p>You might have found that the following also validates:<br /><br />&quot;activity&quot;: &quot;Aerobics, Weight Lifting, Yoga&quot;<br /><br />However to a machine this is one activity with commas in it. The commas could be part of one activity e.g. &quot;Jousting, on horses&quot;. It is only by using arrays that a machine can tell that each activity is distinct.</p></div>",
+    "displayTitle": "2.1 - Adding a list of activities",
+    "title": "2.1 - Adding a list of activities",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
     "_component": "text",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": ""
   },
@@ -1135,7 +1169,7 @@
     "_classes": "",
     "_component": "text",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": "Press 'submit' to check your answer."
   },
@@ -1151,7 +1185,7 @@
     },
     "body": "",
     "displayTitle": "",
-    "title": "Component title",
+    "title": "2.1 - Adding a list of activities",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1212,7 +1246,7 @@
     },
     "body": "",
     "displayTitle": "",
-    "title": "Component title",
+    "title": "2.2 - Adding categories",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1273,7 +1307,7 @@
     },
     "body": "",
     "displayTitle": "",
-    "title": "Component title",
+    "title": "2.3 - Event schedules",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1340,7 +1374,7 @@
     "_classes": "",
     "_component": "text",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": ""
   },
@@ -1356,7 +1390,7 @@
     },
     "body": "",
     "displayTitle": "",
-    "title": "Component title",
+    "title": "2.4 - Adding more properties to your eventSchedule",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1423,7 +1457,7 @@
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": "Click 'submit' to check your answer.",
     "_graphic": {
@@ -1445,7 +1479,7 @@
     },
     "body": "",
     "displayTitle": "",
-    "title": "Component title",
+    "title": "2.5 - Completing your event",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1453,8 +1487,8 @@
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "_defaultValue": "<p>TODO</p>",
-    "_schema": "course/en/assets/b99ae1105066a7e68c94b9d6bd42b5c16e96fa7c.json",
+    "_defaultValue": "",
+    "_schema": "course/en/assets/fe0bf7bebab17eeef0a341829232fa48fd426015.json",
     "_canShowFeedback": false,
     "_attempts": -1,
     "_shouldDisplayAttempts": false,
@@ -1463,9 +1497,9 @@
     "_allowsAnyCase": false,
     "_allowsPunctuation": false,
     "_feedback": {
-      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>You successfully added an array of categories to your event.</p>",
+      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>You now have a complete event schedule!</p>",
       "_incorrect": {
-        "final": "<p><strong>Not quiet!</strong></p><p>Note that in this example categories can only be defined as an array, not as a string. You can define them as strings in the full schema.</p>",
+        "final": "<p><strong>Not quiet!</strong></p><p>Have you included all the required attributes in your eventSchedule (&quot;type&quot;, &quot;startDate&quot;, &quot;endDate&quot;, &quot;frequency&quot;, &quot;startTime&quot;, &quot;endTime&quot;, &quot;byDay&quot;)?</p><p>Is your byDay value a URL e.g. http://schema.org/Wednesday?</p>",
         "notFinal": ""
       }
     },
@@ -1506,7 +1540,7 @@
     },
     "body": "",
     "displayTitle": "",
-    "title": "Component title",
+    "title": "2.6 - Adding a location to your event",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1514,8 +1548,8 @@
     "_pageLevelProgress": {
       "_isEnabled": true
     },
-    "_defaultValue": "<p>TODO</p>",
-    "_schema": "course/en/assets/b99ae1105066a7e68c94b9d6bd42b5c16e96fa7c.json",
+    "_defaultValue": "",
+    "_schema": "course/en/assets/d263d62178e8e19a6d0f1cba79d236f626cf5702.json",
     "_canShowFeedback": false,
     "_attempts": -1,
     "_shouldDisplayAttempts": false,
@@ -1524,9 +1558,9 @@
     "_allowsAnyCase": false,
     "_allowsPunctuation": false,
     "_feedback": {
-      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>You successfully added an array of categories to your event.</p>",
+      "correct": "<p><strong>That&#39;s right!&nbsp;</strong></p><p>Nice work, this was a challenging one!&nbsp;</p>",
       "_incorrect": {
-        "final": "<p><strong>Not quiet!</strong></p><p>Note that in this example categories can only be defined as an array, not as a string. You can define them as strings in the full schema.</p>",
+        "final": "<p><strong>Not quiet!</strong></p><p>This is a difficult one. You need to add a location object with the properties, <strong>type, name, address </strong>and<strong> geo</strong>. The address and geo <strong>objects</strong> should have <strong>all</strong>&nbsp;the properties (except region) shown in the data model diagram. The errors above might not all be helpful, this is due to the complexity of addresses.&nbsp;</p>",
         "notFinal": ""
       }
     },
@@ -1554,5 +1588,402 @@
       "remainingAttemptsText": "",
       "remainingAttemptText": ""
     }
+  },
+  {
+    "_id": "5a55306404816ecd5590c978",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a55306404816ecd5590c977",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>The table below shows the detail of what properties and values are valid in an eventSchedule object.</p><p>Use this table to expand your eventSchedule, to complete this step you need to add the <strong>byDay</strong>&nbsp;property.</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"2\" style=\"width:500px\"><tbody><tr><td><strong>Key&nbsp;</strong></td><td><strong>Example or exact value</strong></td></tr><tr><td>type</td><td>Schedule</td></tr><tr><td>startDate</td><td>ISO 8601 date (e.g. 2019-01-04 or 2018-12-18T19:00:00Z)</td></tr><tr><td>endDate</td><td><em>see startDate</em></td></tr><tr><td>frequency</td><td>&quot;hourly&quot;, &quot;daily&quot;, &quot;weekly&quot;, &quot;monthly&quot; or &quot;yearly&quot;</td></tr><tr><td>byDay</td><td>http://schema.org/{day} (e.g. <a href=\"http://schema.org/Wednesday\" target=\"_blank\">http://schema.org/Wednesday</a>)</td></tr><tr><td>byMonthDay</td><td>1-31</td></tr><tr><td>byMonth</td><td>1-12</td></tr><tr><td>startTime</td><td>e.g. 10:30</td></tr><tr><td>endTime</td><td><em>see startTime</em></td></tr><tr><td>count</td><td>Number in schedule (e.g. 1)</td></tr><tr><td>exceptDate</td><td>Single ISO 8601 date or array of dates</td></tr></tbody></table><p>&nbsp;</p>",
+    "displayTitle": "2.5 - Completing your event",
+    "title": "2.5 - Completing your event",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "Press 'submit' to check your answer."
+  },
+  {
+    "_id": "5a5736edd410b0406c2591a2",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a5530bf04816ecd5590c97c",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>Much like an eventSchedule a <strong>location</strong> of an event has its own set of properties represented in the location&nbsp;<strong>object</strong>. Additionally, the location object has subObjects of address and geo (as well as itself) to give fine grain detail to the location of an event.</p><p>Can you add the following location to your event?</p><p>ExampleCo Gym<br />1 High Street<br />Bristol<br />BS1 4SD<br />51.380837,-2.3462374</p><p><strong>Important note: </strong>The <strong>location&nbsp;</strong>object much have a type of &ldquo;Place&rdquo; and the <strong>address</strong> object a type &ldquo;PostalAddress&ldquo;</p><p>Use the data model diagram below to help you. Remember that each object should be in its own set of { } brackets, just like eventSchedule.</p>",
+    "displayTitle": "2.6 - Adding a location to your event",
+    "title": "2.6 - Adding a location to your event",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/77eee57ee61aa622039a0f254679c5f7a7ce4389.png",
+      "small": "course/en/assets/77eee57ee61aa622039a0f254679c5f7a7ce4389.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "5a573f16d410b0406c2591b1",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a573f16d410b0406c2591ad",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>Congratulations, you have now created a fairly complicated event object in JSON that conforms to the opportunity data modelling specification.</p><p>You have also&nbsp;mastered the JSON format using arrays and objects!</p><p>Before moving on to the next lesson, test your knowledge without our quick quiz on everything you have learnt so far!</p>",
+    "displayTitle": "Well done!",
+    "title": "Well done!",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click the next arrow to take the quiz"
+  },
+  {
+    "_id": "5a573f8dd410b0406c2591b8",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a573f7dd410b0406c2591b3",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Q1: Date formats",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "A",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "B",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "C",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "D",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "E",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_selectable": 2,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>The opportunity data modelling specification uses the international ISO 8601 date format which allows date formats of either YYYY-MM-DD or YYYY-MM-DDTHH:ii:ssZ.&nbsp;</p><p>Did you know? The reason that this date format is so widely used is that it is the only one that can be sorted alphabetically and maintain perfect order. As a counter example 29/12/2017 and 13/01/2018 sorted alphabetically would put the date in 2018 first as 13 is less than 29.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>The opportunity data modelling specification uses the international ISO 8601 date format which allows date formats of either YYYY-MM-DD or YYYY-MM-DDTHH:ii:ssZ.&nbsp;</p><p>Did you know? The reason that this date format is so widely used is that it is the only one that can be sorted alphabetically and maintain perfect order. As a counter example 29/12/2017 and 13/01/2018 sorted alphabetically would put the date in 2018 first as 13 is less than 29.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a574162d410b0406c2591bd",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a57409fd410b0406c2591ba",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Q2: Activity lists",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "A",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "B",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "C",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>Although it might seem logical to have a comma separated list, this still causes issues if the value itself has a comma within it. So an array of values should be used. You cannot use object brackets here as values in an object must be key:value pairs whereas in an array they can be many types.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>Although it might seem logical to have a comma separated list, this still causes issues if the value itself has a comma within it. So an array of values should be used. You cannot use object brackets here as values in an object must be key:value pairs whereas in an array they can be many types.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a5741a3d410b0406c2591c0",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a5741a2d410b0406c2591bf",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>So far we have only created one event, which technique would you use to list multiple-events?</p><p><strong>A)&nbsp;</strong>&nbsp; &nbsp;Use an array of event objects&nbsp;</p><p><strong>B)</strong>&nbsp;&nbsp; &nbsp;Supply a different JSON document for each event&nbsp;</p><p><strong>C)</strong>&nbsp;&nbsp; &nbsp;Add multiple activities to a single event object</p>",
+    "displayTitle": "Q3: Multiple events",
+    "title": "Q3: Multiple events",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "Select you answer and click submit"
+  },
+  {
+    "_id": "5a5740a0d410b0406c2591bb",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a57409fd410b0406c2591ba",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>Which of the following is the valid way to add a list of activities to an event?</p><p><strong>A)</strong>&nbsp;&nbsp; &nbsp;Using a comma separated list in quotes?&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &ldquo;activity&rdquo;: &ldquo;swimming, cycling, running&rdquo;</p><p><strong>B)</strong>&nbsp;&nbsp; &nbsp;Using a set of objects?</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &ldquo;activity&rdquo;: {<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&ldquo;swimming&rdquo;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&ldquo;cycling&rdquo;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&ldquo;running&rdquo;<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;}</p><p><strong>C)</strong>&nbsp;&nbsp; &nbsp;Using an array of values?</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &ldquo;activity&rdquo;: [<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&ldquo;swimming&rdquo;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rdquo;cycling&rdquo;,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&rdquo;running&rdquo;<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]</p>",
+    "displayTitle": "Q2: How to list activities?",
+    "title": "Q2: How to list activities?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "Select you answer and click submit"
+  },
+  {
+    "_id": "5a5741a3d410b0406c2591c1",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a5741a2d410b0406c2591bf",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "Q3: Multiple events",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "A",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "B",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "C",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": false,
+    "_canShowMarking": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong></p><p>Following on from the last question, an array can contain many different types of data. As well as a simple set of strings (e.g. activities) an array can also contain a set of objects, e.g. events.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>Following on from the last question, an array can contain many different types of data. As well as a simple set of strings (e.g. activities) an array can also contain a set of objects, e.g. events.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "5a574204d410b0406c2591c4",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a574204d410b0406c2591c3",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>Well done on completing lesson 2. You should now be able to implement the full data model for opportunity data including all the different sub types such as location.</p><p>You might have noticed that so far we have had to put all of the data about all sub types within each event. This causes a lot of data replication. For example is the location properties are always the same then we should be able to manage these separately. This process is often referred to as database normalisation, where data is looked up by reference.&nbsp;</p><p>In the next two lessons we look at how to do this in JSON with web links are start to create an API for our reference data (such as activities, locations and organisers).&nbsp;</p>",
+    "displayTitle": "Lesson 2 complete",
+    "title": "Lesson 2 complete",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
   }
 ]
