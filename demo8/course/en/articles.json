@@ -15,15 +15,41 @@
     "displayTitle": "",
     "title": "Article title",
     "_articleBlockSlider": {
-      "_minHeight": null,
-      "_hasUniformHeight": true,
-      "_startIndex": 0,
-      "_hasArrows": true,
-      "_hasTabs": false,
-      "_isEnabledOnScreenSizes": "large medium small",
-      "_heightAnimationDuration": 300,
+      "_isEnabled": true,
       "_slideAnimationDuration": 1,
-      "_isEnabled": true
+      "_heightAnimationDuration": 300,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_hasTabs": false,
+      "_hasArrows": true,
+      "_startIndex": 0,
+      "_hasUniformHeight": true,
+      "_minHeight": null
+    },
+    "_assessment": {
+      "_isEnabled": true,
+      "_id": "OA2",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": false,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": true,
+        "_canShowMarking": true,
+        "_canShowModelAnswer": true
+      }
     }
   },
   {
@@ -42,15 +68,41 @@
     "displayTitle": "",
     "title": "Article title",
     "_articleBlockSlider": {
-      "_minHeight": null,
-      "_hasUniformHeight": true,
-      "_startIndex": 0,
-      "_hasArrows": true,
-      "_hasTabs": false,
-      "_isEnabledOnScreenSizes": "large medium small",
-      "_heightAnimationDuration": 300,
+      "_isEnabled": true,
       "_slideAnimationDuration": 1,
-      "_isEnabled": true
+      "_heightAnimationDuration": 300,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_hasTabs": false,
+      "_hasArrows": true,
+      "_startIndex": 0,
+      "_hasUniformHeight": true,
+      "_minHeight": null
+    },
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": false,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
     }
   },
   {
@@ -69,15 +121,41 @@
     "displayTitle": "",
     "title": "Article title",
     "_articleBlockSlider": {
-      "_minHeight": null,
-      "_hasUniformHeight": true,
-      "_startIndex": 0,
-      "_hasArrows": true,
-      "_hasTabs": false,
-      "_isEnabledOnScreenSizes": "large medium small",
-      "_heightAnimationDuration": 300,
+      "_isEnabled": true,
       "_slideAnimationDuration": 1,
-      "_isEnabled": true
+      "_heightAnimationDuration": 300,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_hasTabs": false,
+      "_hasArrows": true,
+      "_startIndex": 0,
+      "_hasUniformHeight": true,
+      "_minHeight": null
+    },
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": false,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
     }
   },
   {
@@ -96,15 +174,41 @@
     "displayTitle": "",
     "title": "Article title",
     "_articleBlockSlider": {
-      "_minHeight": null,
-      "_hasUniformHeight": true,
-      "_startIndex": 0,
-      "_hasArrows": true,
-      "_hasTabs": false,
-      "_isEnabledOnScreenSizes": "large medium small",
-      "_heightAnimationDuration": 300,
+      "_isEnabled": true,
       "_slideAnimationDuration": 1,
-      "_isEnabled": true
+      "_heightAnimationDuration": 300,
+      "_isEnabledOnScreenSizes": "large medium small",
+      "_hasTabs": false,
+      "_hasArrows": true,
+      "_startIndex": 0,
+      "_hasUniformHeight": true,
+      "_minHeight": null
+    },
+    "_assessment": {
+      "_isEnabled": false,
+      "_id": "",
+      "_attempts": -1,
+      "_isPercentageBased": true,
+      "_scoreToPass": 60,
+      "_includeInTotalScore": false,
+      "_assessmentWeight": 1,
+      "_suppressMarking": false,
+      "_isResetOnRevisit": false,
+      "_randomisation": {
+        "_isEnabled": false,
+        "_blockCount": -1
+      },
+      "_banks": {
+        "_isEnabled": false,
+        "_split": "",
+        "_randomisation": false
+      },
+      "_questions": {
+        "_resetType": "soft",
+        "_canShowFeedback": false,
+        "_canShowMarking": false,
+        "_canShowModelAnswer": false
+      }
     }
   }
 ]

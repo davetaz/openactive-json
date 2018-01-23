@@ -9,7 +9,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a15e622fece3ffa59cf1150",
@@ -21,7 +24,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a15e297fece3ffa59cf1143",
@@ -33,7 +39,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a0ea334a87a9e2d1af75e14",
@@ -50,7 +59,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a15e79afece3ffa59cf115b",
@@ -67,7 +79,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a15e622fece3ffa59cf114f",
@@ -84,7 +99,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a0e9b80a87a9e2d1af75e0c",
@@ -101,7 +119,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a551f6404816ecd5590c951",
@@ -118,7 +139,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a0e9b95a87a9e2d1af75e0e",
@@ -130,7 +154,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a5524e904816ecd5590c95a",
@@ -147,7 +174,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a1dc0c499b915b328bb803e",
@@ -159,7 +189,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a5526f204816ecd5590c963",
@@ -176,7 +209,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a1dc52f99b915b328bb8045",
@@ -188,7 +224,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a552a6b04816ecd5590c96a",
@@ -205,7 +244,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a1dc71699b915b328bb804c",
@@ -217,7 +259,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a55306404816ecd5590c977",
@@ -234,7 +279,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a1dcaea99b915b328bb8053",
@@ -246,10 +294,13 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
-    "_id": "5a5530bf04816ecd5590c97c",
+    "_id": "5a6726a775dbd43320482bab",
     "_type": "block",
     "_parentId": "5a15e297fece3ffa59cf1142",
     "_onScreen": {
@@ -263,19 +314,10 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
-  },
-  {
-    "_id": "5a573f16d410b0406c2591ad",
-    "_type": "block",
-    "_parentId": "5a15e297fece3ffa59cf1142",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_trackingId": 19,
-    "_classes": "",
-    "body": "",
-    "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a281b8247f33d8522c29bc8",
@@ -288,23 +330,54 @@
     },
     "_isAvailable": true,
     "_isOptional": false,
+    "_trackingId": 19,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
+  },
+  {
+    "_id": "5a6724a775dbd43320482ba3",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isAvailable": true,
+    "_isOptional": false,
     "_trackingId": 20,
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
-    "_id": "5a573f7dd410b0406c2591b3",
+    "_id": "5a5530bf04816ecd5590c97c",
     "_type": "block",
     "_parentId": "5a15e297fece3ffa59cf1142",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
     "_isAvailable": true,
     "_isOptional": false,
     "_trackingId": 21,
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a15d725fece3ffa59cf113d",
@@ -321,10 +394,13 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
-    "_id": "5a57409fd410b0406c2591ba",
+    "_id": "5a573f16d410b0406c2591ad",
     "_type": "block",
     "_parentId": "5a15e297fece3ffa59cf1142",
     "_isAvailable": true,
@@ -333,10 +409,13 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
-    "_id": "5a5741a2d410b0406c2591bf",
+    "_id": "5a573f7dd410b0406c2591b3",
     "_type": "block",
     "_parentId": "5a15e297fece3ffa59cf1142",
     "_isAvailable": true,
@@ -345,7 +424,40 @@
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
+  },
+  {
+    "_id": "5a57409fd410b0406c2591ba",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 25,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
+  },
+  {
+    "_id": "5a5741a2d410b0406c2591bf",
+    "_type": "block",
+    "_parentId": "5a15e297fece3ffa59cf1142",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_trackingId": 26,
+    "_classes": "",
+    "body": "",
+    "displayTitle": "",
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a574204d410b0406c2591c3",
@@ -358,11 +470,14 @@
     },
     "_isAvailable": true,
     "_isOptional": false,
-    "_trackingId": 25,
+    "_trackingId": 27,
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   },
   {
     "_id": "5a15e385fece3ffa59cf1148",
@@ -375,10 +490,13 @@
     },
     "_isAvailable": true,
     "_isOptional": false,
-    "_trackingId": 26,
+    "_trackingId": 28,
     "_classes": "",
     "body": "",
     "displayTitle": "",
-    "title": "Block title"
+    "title": "Block title",
+    "_assessment": {
+      "_quizBankID": 1
+    }
   }
 ]

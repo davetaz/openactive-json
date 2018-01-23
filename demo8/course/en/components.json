@@ -986,6 +986,34 @@
     }
   },
   {
+    "_id": "5a6726a775dbd43320482bac",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a6726a775dbd43320482bab",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "2.6 - Adding a location to your event",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/9eebc6375144c6d8116c2eea6a29c554c6537676.png",
+      "small": "course/en/assets/9eebc6375144c6d8116c2eea6a29c554c6537676.png",
+      "attribution": ""
+    }
+  },
+  {
     "_id": "5a1dc52f99b915b328bb8048",
     "_layout": "left",
     "_type": "component",
@@ -1540,7 +1568,7 @@
     },
     "body": "",
     "displayTitle": "",
-    "title": "2.6 - Adding a location to your event",
+    "title": "2.8 - Adding a location to your event",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1549,7 +1577,7 @@
       "_isEnabled": true
     },
     "_defaultValue": "",
-    "_schema": "course/en/assets/d263d62178e8e19a6d0f1cba79d236f626cf5702.json",
+    "_schema": "course/en/assets/cd74bc12886e6a8f81cb765ae7f9f399e6486d3b.json",
     "_canShowFeedback": false,
     "_attempts": -1,
     "_shouldDisplayAttempts": false,
@@ -1621,9 +1649,9 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
-    "body": "<p>Much like an eventSchedule a <strong>location</strong> of an event has its own set of properties represented in the location&nbsp;<strong>object</strong>. Additionally, the location object has subObjects of address and geo (as well as itself) to give fine grain detail to the location of an event.</p><p>Can you add the following location to your event?</p><p>ExampleCo Gym<br />1 High Street<br />Bristol<br />BS1 4SD<br />51.380837,-2.3462374</p><p><strong>Important note: </strong>The <strong>location&nbsp;</strong>object much have a type of &ldquo;Place&rdquo; and the <strong>address</strong> object a type &ldquo;PostalAddress&ldquo;</p><p>Use the data model diagram below to help you. Remember that each object should be in its own set of { } brackets, just like eventSchedule.</p>",
-    "displayTitle": "2.6 - Adding a location to your event",
-    "title": "2.6 - Adding a location to your event",
+    "body": "<p>If you have passed the mapping previously then it is now time to test your skills and add the location to your event data object.</p><p>ExampleCo Gym<br />1 High Street<br />Bristol<br />BS1 4SD<br />51.380837,-2.3462374</p><p><strong>Important note: </strong>The <strong>location&nbsp;</strong>object much have a type of &ldquo;Place&rdquo; and the <strong>address</strong> object a type &ldquo;PostalAddress&ldquo;</p><p>Use the data model diagram below to help you or refer back to the previous steps!</p>",
+    "displayTitle": "2.8 - Test your skills",
+    "title": "2.8 - Test your skills",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -1634,8 +1662,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/77eee57ee61aa622039a0f254679c5f7a7ce4389.png",
-      "small": "course/en/assets/77eee57ee61aa622039a0f254679c5f7a7ce4389.png",
+      "large": "course/en/assets/9eebc6375144c6d8116c2eea6a29c554c6537676.png",
+      "small": "course/en/assets/9eebc6375144c6d8116c2eea6a29c554c6537676.png",
       "attribution": ""
     }
   },
@@ -1965,6 +1993,34 @@
     }
   },
   {
+    "_id": "5a6724a775dbd43320482ba6",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a6724a775dbd43320482ba3",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>Use the data model shown here to test your mapping.&nbsp;</p><p>Use the options on the right to select each part of the specification each line corresponds to.</p>",
+    "displayTitle": "2.7 - Location mapping",
+    "title": "2.7 - Location mapping",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "Click 'submit' to check your answers",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/9eebc6375144c6d8116c2eea6a29c554c6537676.png",
+      "small": "course/en/assets/9eebc6375144c6d8116c2eea6a29c554c6537676.png",
+      "attribution": ""
+    }
+  },
+  {
     "_id": "5a574204d410b0406c2591c4",
     "_layout": "left",
     "_type": "component",
@@ -1985,5 +2041,320 @@
       "_isEnabled": true
     },
     "instruction": ""
+  },
+  {
+    "_id": "5a6726a775dbd43320482baf",
+    "_layout": "left",
+    "_type": "component",
+    "_parentId": "5a6726a775dbd43320482bab",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "<p>One of the biggest challenges is the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Data_mapping\" target=\"_blank\"><strong>mapping</strong></a>&nbsp;of your own data into the model as defined in the Modelling Opportunity Data specification.</p><p>Take for example the location of an event.</p><p>In order to add a location of an event to your data it is necessary to define the <strong>Location</strong>&nbsp;of an event.&nbsp;<strong>Location&nbsp;</strong>is an object that consists of a&nbsp;<strong>Place</strong>&nbsp;which is in turn linked to an <strong>Address</strong>&nbsp;and potentially some&nbsp;<strong>Geo</strong>&nbsp;coordinates.&nbsp;</p><p>Take for example the following address:</p><p>ExampleCo Gym<br />1 High Street<br />Bristol<br />BS1 4SD<br />51.380837,-2.3462374</p><p>This is a human readable address but can you <strong>map each line</strong> into the part of the&nbsp;Modelling Opportunity Data specification shown on the right?</p>",
+    "displayTitle": "2.6 - Adding a location to an event",
+    "title": "2.6 - Adding a location to an event",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click next to test your mapping! "
+  },
+  {
+    "_id": "5a6726fa75dbd43320482bb0",
+    "_layout": "right",
+    "_type": "component",
+    "_parentId": "5a6724a775dbd43320482ba3",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "body": "",
+    "displayTitle": "",
+    "title": "2.7 - Location mapping",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "matching",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select the correct field from the options below for each line of our address",
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_questionWeight": 1,
+    "_recordInteraction": false,
+    "placeholder": "select an option",
+    "_items": [
+      {
+        "text": "ExampleCo Gym",
+        "_options": [
+          {
+            "text": "Place : name",
+            "_isCorrect": true
+          },
+          {
+            "text": "Place : description",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : address",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : geo",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : type",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : streetAddress",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : addressLocality",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : region",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : postalCode",
+            "_isCorrect": false
+          },
+          {
+            "text": "Geo : latitude / longitude",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "1 High Street",
+        "_options": [
+          {
+            "text": "Place : name",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : description",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : address",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : geo",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : type",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : streetAddress",
+            "_isCorrect": true
+          },
+          {
+            "text": "Address : addressLocality",
+            "_isCorrect": false
+          },
+          {
+            "text": " Address : region",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : postalCode",
+            "_isCorrect": false
+          },
+          {
+            "text": "Geo : latitude / longitude",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "Bristol",
+        "_options": [
+          {
+            "text": "Place : name",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : description",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : address",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : geo",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : type",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : streetAddress",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : addressLocality",
+            "_isCorrect": true
+          },
+          {
+            "text": "Address : region",
+            "_isCorrect": true
+          },
+          {
+            "text": "Address : postalCode",
+            "_isCorrect": false
+          },
+          {
+            "text": "Geo : latitude / longitude",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "BS1 4SD",
+        "_options": [
+          {
+            "text": "Place : name",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : description",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : address",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : geo",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : type",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : streetAddress",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : addressLocality",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : region",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : postalCode",
+            "_isCorrect": true
+          },
+          {
+            "text": "Geo : latitude / longitude",
+            "_isCorrect": false
+          }
+        ]
+      },
+      {
+        "text": "51.380837,-2.3462374",
+        "_options": [
+          {
+            "text": "Place : name",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : description",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : address",
+            "_isCorrect": false
+          },
+          {
+            "text": "Place : geo",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : type",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : streetAddress",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : addressLocality",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : region",
+            "_isCorrect": false
+          },
+          {
+            "text": "Address : postalCode",
+            "_isCorrect": false
+          },
+          {
+            "text": "Geo : latitude / longitude",
+            "_isCorrect": true
+          }
+        ]
+      }
+    ],
+    "_feedback": {
+      "correct": "<p><strong>That&#39;s right!</strong>&nbsp;</p><p>The modelling opportunity data specification uses many objects to model an address and this can be confusing. So the&nbsp;<strong>name&nbsp;</strong>of the&nbsp;<strong>place</strong>&nbsp;is the first one. The first line of the address is the streetAddress. Bristol is the confusing one as Bristol is both a locality and a region, so both are valid. Hopefully the postcode and co-ordinates are easy to spot.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>The modelling opportunity data specification uses many objects to model an address and this can be confusing. So the&nbsp;<strong>name&nbsp;</strong>of the&nbsp;<strong>place</strong>&nbsp;is the first one. The first line of the address is the streetAddress. Bristol is the confusing one as Bristol is both a locality and a region, so both are valid. Hopefully the postcode and co-ordinates are easy to spot.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
   }
 ]

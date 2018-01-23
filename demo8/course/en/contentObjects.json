@@ -23,8 +23,8 @@
     "displayTitle": "Lesson 1: Defining an opportunity",
     "title": "Lesson 1: Defining an opportunity",
     "_pageLevelProgress": {
-      "_showPageCompletion": true,
-      "_isEnabled": true
+      "_isEnabled": true,
+      "_showPageCompletion": true
     }
   },
   {
@@ -51,8 +51,8 @@
     "displayTitle": "Lesson 2: Adding more detail and nested data",
     "title": "Lesson 2: Adding more detail and nested data",
     "_pageLevelProgress": {
-      "_showPageCompletion": true,
-      "_isEnabled": true
+      "_isEnabled": true,
+      "_showPageCompletion": true
     }
   },
   {
@@ -79,8 +79,8 @@
     "displayTitle": "Lesson 3: Defining lists of activities and places",
     "title": "Lesson 3: Defining lists of activities and places",
     "_pageLevelProgress": {
-      "_showPageCompletion": true,
-      "_isEnabled": true
+      "_isEnabled": true,
+      "_showPageCompletion": true
     }
   },
   {
@@ -107,8 +107,8 @@
     "displayTitle": "Lesson 4: Using lists with opportunities",
     "title": "Lesson 4: Using lists with opportunities",
     "_pageLevelProgress": {
-      "_showPageCompletion": true,
-      "_isEnabled": true
+      "_isEnabled": true,
+      "_showPageCompletion": true
     }
   }
 ]

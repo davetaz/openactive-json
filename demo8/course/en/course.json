@@ -1,69 +1,72 @@
 {
   "_id": "course",
   "_globals": {
-    "_accessibility": {
-      "accessibilityToggleTextOn": "Turn accessibility on?",
-      "accessibilityToggleTextOff": "Turn accessibility off?",
-      "skipNavigationText": "Skip navigation",
-      "_accessibilityInstructions": {
-        "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page.",
-        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
-        "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select."
+    "_extensions": {
+      "_pageLevelProgress": {
+        "optionalContent": "Optional Content",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "pageLevelProgressMenuBar": "You have completed ",
+        "pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
+        "pageLevelProgress": "Page sections"
       },
-      "_ariaLabels": {
-        "navigation": "Course navigation bar",
-        "skipNavigation": "Skip Navigation",
-        "menuLoaded": "Menu loaded",
-        "menu": "Menu",
-        "menuItem": "Menu item",
-        "menuViewButton": "Select here to enter",
-        "page": "Page",
-        "pageLoaded": "Page loaded",
-        "previous": "Back",
-        "navigationBack": "Navigate back",
-        "navigationDrawer": "Open course resources and search",
-        "closeResources": "Close resources",
-        "drawerBack": "Back to drawer",
-        "drawer": "Side drawer",
-        "closePopup": "Close popup",
-        "next": "Next",
-        "done": "Done",
-        "complete": "Complete",
-        "incomplete": "Incomplete",
-        "correct": "Correct",
-        "locked": "Locked",
-        "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
-        "feedbackPopUp": "Popup opened",
-        "visited": "Visited",
-        "menuBack": "Back to menu",
-        "menuIndicatorHeading": "Menu item heading "
+      "_resources": {
+        "resourcesEnd": "You have reached the end of the list of resources."
       }
     },
     "_components": {
-      "_graphic": {
-        "ariaRegion": ""
-      },
-      "_text": {
-        "ariaRegion": ""
+      "_mcq": {
+        "ariaRegion": "This is a multiple choice question. Once you have selected an option, select the submit button below"
       },
       "_jsonschema": {
         "ariaRegion": "This question requires you to input your answer in the codebox provided. When you have done so, select the submit button below."
       },
-      "_mcq": {
-        "ariaRegion": "This is a multiple choice question. Once you have selected an option, select the submit button below"
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_matching": {
+        "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button."
       }
     },
-    "_extensions": {
-      "_resources": {
-        "resourcesEnd": "You have reached the end of the list of resources."
+    "_accessibility": {
+      "_ariaLabels": {
+        "menuIndicatorHeading": "Menu item heading ",
+        "menuBack": "Back to menu",
+        "visited": "Visited",
+        "feedbackPopUp": "Popup opened",
+        "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+        "locked": "Locked",
+        "correct": "Correct",
+        "incomplete": "Incomplete",
+        "complete": "Complete",
+        "done": "Done",
+        "next": "Next",
+        "closePopup": "Close popup",
+        "drawer": "Side drawer",
+        "drawerBack": "Back to drawer",
+        "closeResources": "Close resources",
+        "navigationDrawer": "Open course resources and search",
+        "navigationBack": "Navigate back",
+        "previous": "Back",
+        "pageLoaded": "Page loaded",
+        "page": "Page",
+        "menuViewButton": "Select here to enter",
+        "menuItem": "Menu item",
+        "menu": "Menu",
+        "menuLoaded": "Menu loaded",
+        "skipNavigation": "Skip Navigation",
+        "navigation": "Course navigation bar"
       },
-      "_pageLevelProgress": {
-        "pageLevelProgress": "Page sections",
-        "pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
-        "pageLevelProgressMenuBar": "You have completed ",
-        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
-        "optionalContent": "Optional Content"
-      }
+      "_accessibilityInstructions": {
+        "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select.",
+        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+        "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page."
+      },
+      "skipNavigationText": "Skip navigation",
+      "accessibilityToggleTextOff": "Turn accessibility off?",
+      "accessibilityToggleTextOn": "Turn accessibility on?"
     }
   },
   "_start": {
@@ -100,32 +103,37 @@
       "buttonText": "Submit"
     }
   },
-  "_latestTrackingId": 26,
+  "_latestTrackingId": 28,
   "description": "",
   "body": "<p><a href=\"https://www.openactive.io/\" target=\"_blank\">OpenActive</a> is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active.</p><p>Our goal is to make data on what, where and when physical activity sessions happen, openly available. This &ldquo;opportunity data&rdquo; includes details of a yoga class (&ldquo;how much will it cost?&rdquo;) through to badminton court availability (&ldquo;where and when is a court available?&rdquo;).&nbsp;</p><p>This interactive tutorial shows you how to&nbsp;create &quot;opportunity data&quot;&nbsp;that conforms to the community developed&nbsp;<a href=\"https://www.openactive.io/modelling-opportunity-data/\">opportunity modelling&nbsp;specification</a>.</p><p>For <strong>publishers</strong> and <strong>activity providers</strong> this tutorial will help get your data out there!</p><p>For <strong>users</strong> this tutorial will help you understand what sort of data you can use in your applications.</p><p>&nbsp;</p><p>Each lesson should between 10-20&nbsp;minutes to complete and it is highly recommended you follow the lessons in order.</p><p>&nbsp;</p><p><br /><em>Click on lesson 1 to get started creating your opportunity data!</em></p>",
   "displayTitle": "Open Active -  Creating opportunity data",
   "title": "Open Active -  Creating opportunity data",
-  "_pageLevelProgress": {
-    "_showPageCompletion": true,
+  "_resources": {
+    "_resourcesItems": [],
+    "_filterAria": {
+      "linkAria": "View resource links",
+      "mediaAria": "View media resources",
+      "documentAria": "View document resources",
+      "allAria": "View all resources"
+    },
+    "_filterButtons": {
+      "link": "Links",
+      "media": "Media",
+      "document": "Documents",
+      "all": "All"
+    },
+    "description": "Click here to view resources for this course",
+    "title": "Resources",
+    "_drawerOrder": 0,
     "_isEnabled": true
   },
-  "_resources": {
+  "_pageLevelProgress": {
     "_isEnabled": true,
-    "_drawerOrder": 0,
-    "title": "Resources",
-    "description": "Click here to view resources for this course",
-    "_filterButtons": {
-      "all": "All",
-      "document": "Documents",
-      "media": "Media",
-      "link": "Links"
-    },
-    "_filterAria": {
-      "allAria": "View all resources",
-      "documentAria": "View document resources",
-      "mediaAria": "View media resources",
-      "linkAria": "View resource links"
-    },
-    "_resourcesItems": []
+    "_showPageCompletion": true
+  },
+  "_assessment": {
+    "_postTotalScoreToLms": false,
+    "_isPercentageBased": true,
+    "_scoreToPass": 60
   }
 }
