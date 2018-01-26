@@ -6,7 +6,7 @@
   "_forceRouteLocking": true,
   "_logging": {
     "_console": false,
-    "_level": null,
+    "_level": "debug",
     "_isEnabled": false
   },
   "__v": 0,
@@ -42,7 +42,8 @@
       "adapt-contrib-graphic",
       "adapt-contrib-jsonSchema",
       "adapt-contrib-mcq",
-      "adapt-contrib-matching"
+      "adapt-contrib-matching",
+      "adapt-contrib-dataFetch"
     ]
   }
 }

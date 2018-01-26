@@ -12,6 +12,8 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_isVisible": true,
+    "_isHidden": false,
     "_isAvailable": true,
     "_isOptional": false,
     "_lockedBy": [],
@@ -40,6 +42,8 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_isVisible": true,
+    "_isHidden": false,
     "_isAvailable": true,
     "_isOptional": false,
     "_lockedBy": [],
@@ -68,6 +72,8 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_isVisible": true,
+    "_isHidden": false,
     "_isAvailable": true,
     "_isOptional": false,
     "_lockedBy": [],
@@ -96,6 +102,8 @@
       "_classes": "",
       "_percentInviewVertical": 50
     },
+    "_isVisible": true,
+    "_isHidden": false,
     "_isAvailable": true,
     "_isOptional": false,
     "_lockedBy": [],
