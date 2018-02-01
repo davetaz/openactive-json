@@ -1,0 +1,167 @@
+[
+  {
+    "_id": "5a0e9b80a87a9e2d1af75e0a",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isVisible": true,
+    "_isHidden": false,
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_classes": "",
+    "body": "",
+    "displayTitle": "Lesson 1: Defining an opportunity",
+    "title": "Lesson 1: Defining an opportunity",
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_trackingHub": {
+      "_pageID": ""
+    }
+  },
+  {
+    "_id": "5a15e297fece3ffa59cf1141",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isVisible": true,
+    "_isHidden": false,
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_classes": "",
+    "body": "",
+    "displayTitle": "Lesson 2: Event schedules and locations",
+    "title": "Lesson 2: Event schedules and locations",
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_trackingHub": {
+      "_pageID": ""
+    }
+  },
+  {
+    "_id": "5a73281b8d21af9f4b605f46",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isVisible": true,
+    "_isHidden": false,
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_classes": "",
+    "body": "",
+    "displayTitle": "Quiz: Test your knowledge",
+    "title": "Quiz: Test your knowledge",
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_trackingHub": {
+      "_pageID": ""
+    }
+  },
+  {
+    "_id": "5a15e622fece3ffa59cf114d",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isVisible": true,
+    "_isHidden": false,
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_classes": "hidden",
+    "body": "",
+    "displayTitle": "Lesson 3: Defining lists of activities and places",
+    "title": "Lesson 3: Defining lists of activities and places",
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_trackingHub": {
+      "_pageID": ""
+    }
+  },
+  {
+    "_id": "5a15e79afece3ffa59cf1159",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_isVisible": true,
+    "_isHidden": false,
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "pageBody": "",
+    "_classes": "hidden",
+    "body": "",
+    "displayTitle": "Lesson 4: Using lists with opportunities",
+    "title": "Lesson 4: Using lists with opportunities",
+    "_pageLevelProgress": {
+      "_showPageCompletion": true,
+      "_isEnabled": true
+    },
+    "_trackingHub": {
+      "_pageID": ""
+    }
+  }
+]
