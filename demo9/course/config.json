@@ -29,32 +29,10 @@
     "small": 519
   },
   "_id": "5a0e9b7ea87a9e2d1af75e09",
-  "_trackingHub": {
-    "_channels": [
-      {
-        "_isStateSource": true,
-        "_saveStateIsEnabled": true,
-        "_transport": {
-          "_auth": {
-            "_password": "",
-            "_username": ""
-          },
-          "_endpoint": "http://localhost/~davetaz/odi/LRS/web/api/v2/",
-          "_handlerName": "ODILRSStorageTransportHandler"
-        },
-        "_msgComposerName": "learnifyMessageComposer",
-        "_isEnabled": true,
-        "_name": "LRS"
-      }
-    ],
-    "_courseID": "http://openactive.io/learn/modelling",
-    "_isEnabled": true
-  },
   "build": {
     "includes": [
       "adapt-theme-fullscreen-horizontal",
       "adapt-contrib-compressedmenu",
-      "adapt-trackingHub",
       "adapt-contrib-assessment",
       "adapt-contrib-tutor",
       "adapt-contrib-resources",
@@ -64,7 +42,6 @@
       "adapt-contrib-jsonSchema",
       "adapt-contrib-graphic",
       "adapt-contrib-matching",
-      "adapt-contrib-dataFetch",
       "adapt-contrib-mcq",
       "adapt-contrib-assessmentResults"
     ]

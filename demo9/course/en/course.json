@@ -100,50 +100,37 @@
       "buttonText": "Submit"
     }
   },
-  "_latestTrackingId": 31,
+  "_latestTrackingId": 26,
   "description": "",
   "body": "<p><a href=\"https://www.openactive.io/\" target=\"_blank\">OpenActive</a> is an ambitious, community-led initiative for change across the sport and physical activity sector, which promotes the use of opportunity data to help people get active.</p><p>Our goal is to make data on what, where and when physical activity sessions happen, openly available. This &ldquo;opportunity data&rdquo; includes details of a yoga class (&ldquo;how much will it cost?&rdquo;) through to badminton court availability (&ldquo;where and when is a court available?&rdquo;).&nbsp;</p><p>This interactive tutorial shows you how to&nbsp;create &quot;opportunity data&quot;&nbsp;that conforms to the community developed&nbsp;<a href=\"https://www.openactive.io/modelling-opportunity-data/\">opportunity modelling&nbsp;specification</a>.</p><p>For <strong>publishers</strong> and <strong>activity providers</strong> this tutorial will help get your data out there!</p><p>For <strong>users</strong> this tutorial will help you understand what sort of data you can use in your applications.</p><p>&nbsp;</p><p>Each lesson should between 10-20&nbsp;minutes to complete and it is highly recommended you follow the lessons in order.</p><p>&nbsp;</p><p><br /><em>Click on lesson 1 to get started creating your opportunity data!</em></p>",
   "displayTitle": "Open Active -  Creating opportunity data",
   "title": "Open Active -  Creating opportunity data",
-  "_trackingHub": {
-    "saveTitle": "Save progress",
-    "saveBody": "<p>Please enter your&nbsp;<strong>email</strong>&nbsp;address in the box below. You will receive an email linking to your unique profile so you can save your progress, earn rewards and resume your learning on any device.</p><p>Data regarding&nbsp;progress is stored by the Open Data Institute (ODI) Learning Record System (LRS) to (1) allow you to resume your learning and (2) to be used by&nbsp;the ODI produce a series of learning analytics. For more details please see the ODI <a href=\"https://theodi.org/privacy-policy\" target=\"_blank\">privacy policy</a>.&nbsp;</p>",
-    "fields": [
-      {
-        "id": "email",
-        "title": "Email",
-        "type": "email",
-        "placeholder": "",
-        "required": true
-      }
-    ]
-  },
-  "_assessment": {
-    "_postTotalScoreToLms": false,
-    "_isPercentageBased": true,
-    "_scoreToPass": 60
+  "_resources": {
+    "_resourcesItems": [],
+    "_filterAria": {
+      "linkAria": "View resource links",
+      "mediaAria": "View media resources",
+      "documentAria": "View document resources",
+      "allAria": "View all resources"
+    },
+    "_filterButtons": {
+      "link": "Links",
+      "media": "Media",
+      "document": "Documents",
+      "all": "All"
+    },
+    "description": "Click here to view resources for this course",
+    "title": "Resources",
+    "_drawerOrder": 0,
+    "_isEnabled": false
   },
   "_pageLevelProgress": {
-    "_isEnabled": true,
-    "_showPageCompletion": true
+    "_showPageCompletion": true,
+    "_isEnabled": true
   },
-  "_resources": {
-    "_isEnabled": false,
-    "_drawerOrder": 0,
-    "title": "Resources",
-    "description": "Click here to view resources for this course",
-    "_filterButtons": {
-      "all": "All",
-      "document": "Documents",
-      "media": "Media",
-      "link": "Links"
-    },
-    "_filterAria": {
-      "allAria": "View all resources",
-      "documentAria": "View document resources",
-      "mediaAria": "View media resources",
-      "linkAria": "View resource links"
-    },
-    "_resourcesItems": []
+  "_assessment": {
+    "_scoreToPass": 60,
+    "_isPercentageBased": true,
+    "_postTotalScoreToLms": false
   }
 }
